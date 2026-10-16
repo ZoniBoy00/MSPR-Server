@@ -90,8 +90,12 @@ export function startDns(cfg: Config): Socket {
         return;
       }
       // Answer every permitted query; the game's SVO resolver wedges if a lookup times out.
-      const r = (await forward(cfg, q)) ?? servFail(q);
+      const t0 = Date.now();
+      const up = await forward(cfg, q);
+      const r = up ?? servFail(q);
       sock.send(r, rinfo.port, rinfo.address);
+      // forwarded names are the PlayStation Network lookups of a real PS3: with the time they took, they show what it waited for
+      console.log(`[dns] ${name} (type ${qtype}) from ${rinfo.address} forwarded -> ${up ? "answered" : "no answer"} ${Date.now() - t0}ms`);
     } catch (e) {
       console.error("[dns] bad query", e);
     }

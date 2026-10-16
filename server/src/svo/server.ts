@@ -145,6 +145,7 @@ function reply(req: IncomingMessage, res: ServerResponse, body: string, extra: R
   res.useChunkedEncodingByDefault = false; // body ends at close, like the original service
   res.sendDate = false;
   res.writeHead(200, "OK", headers);
+  (res as unknown as { outBytes?: number }).outBytes = Buffer.byteLength(body);
   res.end(body);
 }
 
@@ -169,7 +170,11 @@ function route(cfg: Config, store: Store, req: IncomingMessage, res: ServerRespo
   const ua = String(req.headers["user-agent"] ?? "-").slice(0, 80);
   // the game says what it runs on in every request ("SVO-Platform: PS3" in the captures of a real PS3)
   const svoPlatform = String(req.headers["svo-platform"] ?? "-").slice(0, 20);
-  res.on("close", () => log?.write(`${line} -> ${res.statusCode}${res.writableFinished ? "" : " ABORTED"} ${Date.now() - started}ms in=${body.length}B platform=${svoPlatform} ua=${ua}\n`));
+  // the request headers that matter (cookie NAMES only: the values are session tokens)
+  const hdr = ["content-type", "content-length", "expect", "transfer-encoding", "connection", "accept", "accept-encoding"]
+    .filter((k) => req.headers[k] !== undefined).map((k) => `${k}=${String(req.headers[k]).slice(0, 40)}`)
+    .concat(req.headers.cookie ? [`cookies=${Object.keys(cookies(req)).join("+")}`] : [], req.headers["x-svomac"] ? ["x-svomac=yes"] : []).join(";");
+  res.on("close", () => log?.write(`${line} -> ${res.statusCode}${res.writableFinished ? "" : " ABORTED"} ${Date.now() - started}ms in=${body.length}B out=${(res as unknown as { outBytes?: number }).outBytes ?? 0}B platform=${svoPlatform} ua=${ua} hdr=${hdr}\n`));
 
   if (path === "index" || path === "index.jsp" || path === "") return reply(req, res, urlListXml());
 

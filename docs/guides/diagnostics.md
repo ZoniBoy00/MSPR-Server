@@ -49,6 +49,10 @@ Each `finishGame` request writes a `result.received` event before anything else 
 
 When a result arrives for a game whose summary already said `NO RESULT from ...`, a `game.summary.late` event says who, for which game and how many seconds after the game ended, and when nobody is missing a result any more. The summary itself is not rewritten.
 
+## Recording a test session
+
+For a first test with a real PS3 the logs are complete on the server's side: the DNS lookups the console forwards (`journalctl -u mspr-server-ts | grep forwarded` shows every PlayStation Network name with the time it took), the SVO request log (one line per request with status, time, sizes, cookie names and main headers) and the event journal. To see the bytes themselves, record the session with `scripts/capture-ps3.sh <ps3-ip>` as root (tcpdump of DNS, SVO, Medius and the race ports; the SVO traffic is plain HTTP, so the requests and answers can be read with Wireshark). The files stay on the server (they hold IP addresses), at most six of 100 MB. For a Medius message log add `HORIZON_VERBOSE=1` to the Horizon service for the test and remove it afterwards: it logs every message and is too much for daily use.
+
 ## Saved results after login
 
 The game keeps the race results it could not send and posts them right after the next SVO login, often several at once. A real PS3 does this with races played before it came to this server. Such a result cannot be matched to a game the player is in now, so the anti-cheat used to reject it and count it as a strike, and three of them banned the player for 24 hours. Now a result that arrives within 30 seconds of the login:
