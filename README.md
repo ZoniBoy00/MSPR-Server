@@ -1,6 +1,6 @@
 # MSPR: a private server for MotorStorm: Pacific Rift
 
-A community server for **MotorStorm: Pacific Rift** (US disc BCUS98155, update 1.03, Medius application 21624), played with RPCS3 and an RPCN account. A real PS3 has not been tested.
+A community server for **MotorStorm: Pacific Rift** (US disc BCUS98155, update 1.03, Medius application 21624), played with RPCS3 and an RPCN account. A real PS3 has only been tried briefly (login, EULA and the boards work, see the status page).
 
 It replaces the game's online services: login and EULA, the lobby, Custom Game, Ranked and Casual matchmaking, race servers, and the Time Attack (with ghosts), Speed Weekend and Ranked leaderboards. It also comes with a status site and a JSON API.
 
