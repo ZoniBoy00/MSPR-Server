@@ -35,6 +35,9 @@ interface GameRec {
 /** A race report that reached the SVO service. */
 interface ResultNote { t: number; key: string; mode: number; gameId: string; flagged: boolean }
 
+/** A game whose summary named players without a result: if their result arrives later, it is reported (a real PS3 posts its saved results only after the next login). */
+interface LateEntry { type: string; name: string; mode: number; firstSeen: number; end: number; missing: Map<string, string> }
+
 const SUMMARY_DELAY_MS = 20_000;     // results are posted around the time the game ends: wait a little before judging
 const GAME_LOG_FROM_MS = 90_000;     // a game that lasted less than this was a lobby, not a race
 
@@ -48,6 +51,7 @@ export class OnlineTracker {
   private readonly startedAt = Date.now();
   private readonly games = new Map<string, GameRec>();
   private results: ResultNote[] = [];
+  private late: LateEntry[] = [];
   private horizonUp: boolean | null = null;
 
   constructor(private readonly cfg: Config, private readonly diag?: Diagnostics) {}
@@ -93,6 +97,20 @@ export class OnlineTracker {
   noteResult(accountKeyName: string, p: Record<string, string>, flagged: string | null, now = Date.now()): void {
     this.results.push({ t: now, key: accountKeyName.toLowerCase(), mode: Number(p["location.gameMode"]), gameId: p.gameId ?? "", flagged: !!flagged });
     this.results = this.results.filter((x) => now - x.t < REMEMBER_MS);
+    this.noteLate(accountKeyName.toLowerCase(), Number(p["location.gameMode"]), now);
+  }
+
+  /** A result for a game whose summary already called it missing: say so, so the summary is not the last word. */
+  private noteLate(key: string, mode: number, now: number): void {
+    this.late = this.late.filter((l) => now - l.end < REMEMBER_MS);
+    for (const l of this.late) {
+      if (l.mode !== mode || now < l.firstSeen || !l.missing.has(key)) continue;
+      const shown = l.missing.get(key)!.replace(/@RPCN$/i, "");
+      l.missing.delete(key);
+      this.diag?.event("game.summary.late", `${shown}: the result for ${l.type} game ${l.name} arrived ${Math.round((now - l.end) / 1000)} s after the game ended` +
+        (l.missing.size ? "" : "; nobody is missing a result any more"), { name: l.name, type: l.type, account: shown, secondsLate: Math.round((now - l.end) / 1000), stillMissing: [...l.missing.values()] }, "info", now);
+    }
+    this.late = this.late.filter((l) => l.missing.size > 0);
   }
 
   /** Feeds one snapshot (exported for tests). */
@@ -188,6 +206,8 @@ export class OnlineTracker {
     const msg = `${rec.type} game ${rec.name} on ${track}: ${players.length} players, ${seconds} s; ` +
       (race ? (missing.length ? `NO RESULT from ${missing.map((n) => n.replace(/@RPCN$/i, "")).join(", ")}` : "everyone posted a result") : "too short to be a race") +
       (nobody ? ". Nobody posted a result: the race probably never started. A player who does not own the map (add-on content) can block the start; the host's game chooses the map." : "");
+    if (race && missing.length && mode !== undefined)
+      this.late.push({ type: rec.type, name: rec.name, mode: Number(mode), firstSeen: rec.firstSeen, end, missing: new Map(missing.map((n) => [accountKey(n).toLowerCase(), n])) });
     this.diag?.event("game.summary", msg, { world: rec.worldId, type: rec.type, name: rec.name, track: rec.track, trackName: track, seconds, race, players, missing: race ? missing : [] },
       race && missing.length ? "warn" : "info", end);
   }

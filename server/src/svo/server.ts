@@ -301,7 +301,7 @@ function route(cfg: Config, store: Store, req: IncomingMessage, res: ServerRespo
       const ck = cookies(req), ip = req.socket.remoteAddress?.replace(/^::ffff:/, "") ?? "";
       const how = ck.AuthKeyTime && sessions.has(ck.AuthKeyTime) ? "session cookie" : lastLoginByIp.has(req.socket.remoteAddress ?? "") ? "last login of the address" : "nobody";
       diag?.event("result.received", `finishGame from ${acct.name || "an unknown player"}: mode ${p["location.gameMode"]}, recognised by: ${how}`,
-        { account: acct.name, mode: p["location.gameMode"], track: p["location.track"], endState: p.endState, cookies: Object.keys(ck), recognisedBy: how, ip, sinceLoginMs: acct.id ? Date.now() - (loginAt.get(acct.id) ?? 0) : null }, "info");
+        { account: acct.name, mode: p["location.gameMode"], track: p["location.track"], endState: p.endState, cookies: Object.keys(ck), recognisedBy: how, ip, bodyBytes: body.length, headers: Object.fromEntries(["expect", "transfer-encoding", "content-length", "content-type", "connection", "user-agent", "svo-platform"].filter((k) => req.headers[k] !== undefined).map((k) => [k, String(req.headers[k]).slice(0, 80)])), sinceLoginMs: acct.id ? Date.now() - (loginAt.get(acct.id) ?? 0) : null }, "info");
     }
     let flagged: string | null = null;
     if (acct.id) {

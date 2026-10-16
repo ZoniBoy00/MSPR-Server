@@ -46,6 +46,23 @@ describe("game summaries", () => {
     assert.ok(kinds.includes("game.end"));
     assert.equal(kinds.filter((k) => k === "game.summary").length, 1);
   });
+  test("a result that arrives after the summary is reported as late", () => {
+    const d = new Diagnostics(undefined, false);
+    const t = new OnlineTracker(cfg, d);
+    const all = ["ZoniBoy0@RPCN", "PsnPlayerOne"];
+    t.record([game(all)], T0);
+    t.record([game(all)], T0 + 240_000);
+    t.noteResult("ZoniBoy0", { "location.gameMode": "6", gameId: "3" }, null, T0 + 235_000);
+    t.record([], T0 + 245_000);
+    t.flush(T0 + 280_000);
+    assert.match(d.list({ kind: "game.summary" })[0].msg, /NO RESULT from PsnPlayerOne/);
+    t.noteResult("PsnPlayerOne@PSN", { "location.gameMode": "6", gameId: "3" }, null, T0 + 400_000);
+    const late = d.list({ kind: "game.summary.late" });
+    assert.equal(late.length, 1);
+    assert.match(late[0].msg, /PsnPlayerOne: the result for casual game .* arrived \d+ s after the game ended; nobody is missing a result any more/);
+    t.noteResult("PsnPlayerOne@PSN", { "location.gameMode": "6", gameId: "3" }, null, T0 + 410_000);   // a second report is not reported again
+    assert.equal(d.list({ kind: "game.summary.late" }).length, 1);
+  });
   test("a race where everybody posted is fine", () => {
     const s = run(["ZoniBoy0", "RpcnPlayerTwo", "PsnPlayerOne@PSN"]).list({ kind: "game.summary" })[0];
     assert.equal(s.level, "info");

@@ -43,6 +43,12 @@ The argument is how many minutes back to look. The script prints the path of an 
 * What the game decided on the player's side, for example why it did not send a result. For an RPCS3 player the RPCS3 log (`log/RPCS3.log`, set the log level of the `HLE` and `NP` channels higher if needed) is the only source.
 * The exact DME message a stuck game is waiting for. A packet capture of the race ports can show whether a player is sending at all.
 
+## Every race report, and results that come late
+
+Each `finishGame` request writes a `result.received` event before anything else is decided: who the player is and how the server recognised them (`session cookie`, `last login of the address` or `nobody`), the names of the cookies and the main request headers (`expect`, `transfer-encoding`, `content-length`, `connection`, ...), the size of the body and the time since the player's last SVO login. For a real PS3 whose result is late this shows whether the request comes at all, when, and what it looks like.
+
+When a result arrives for a game whose summary already said `NO RESULT from ...`, a `game.summary.late` event says who, for which game and how many seconds after the game ended, and when nobody is missing a result any more. The summary itself is not rewritten.
+
 ## Saved results after login
 
 The game keeps the race results it could not send and posts them right after the next SVO login, often several at once. A real PS3 does this with races played before it came to this server. Such a result cannot be matched to a game the player is in now, so the anti-cheat used to reject it and count it as a strike, and three of them banned the player for 24 hours. Now a result that arrives within 30 seconds of the login:
