@@ -227,7 +227,7 @@ Game settings. After that the map cannot be changed in Custom Game and the map p
 The bug is in the game itself, so the server cannot fix it. The fix is the RPCS3 patch
 `patches\rpcs3\imported_patch.yml` (address 0x2804e4, `li r5,0xdc` → `li r5,0xb0`).
 
-The status site offers the file for download too (Server tab, "RPCS3 patch", or `/downloads/imported_patch.yml`).
+The status site has a Testing tab (how to join, what to try, how to report with the GitHub forms). It offers the file for download too (Server tab, "RPCS3 patch", or `/downloads/imported_patch.yml`).
 
 1. Copy the file to RPCS3's `patches` folder. `START-MSPR` does this itself if the folder has no
    `imported_patch.yml` yet. If it has one, import the file with the Patch Manager's Import button.

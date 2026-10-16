@@ -12,13 +12,14 @@ import { viewOverview } from "./views/overview.js";
 import { loadProfile, viewPlayer } from "./views/player.js";
 import { viewRaces } from "./views/races.js";
 import { viewServer } from "./views/server.js";
+import { viewTesting } from "./views/testing.js";
 import { viewTracks } from "./views/tracks.js";
 
 var view = document.getElementById("view");
 
 /* ---------- render + data ---------- */
 function render() {
-  var f = { overview: viewOverview, live: viewLive, leaderboards: viewLeaderboards, drivers: viewDrivers, tracks: viewTracks, races: viewRaces, anticheat: viewAnticheat, diagnostics: viewDiagnostics, server: viewServer, player: viewPlayer }[state.tab];
+  var f = { overview: viewOverview, live: viewLive, leaderboards: viewLeaderboards, drivers: viewDrivers, tracks: viewTracks, races: viewRaces, anticheat: viewAnticheat, diagnostics: viewDiagnostics, server: viewServer, testing: viewTesting, player: viewPlayer }[state.tab];
   var scrollY = window.scrollY;
   var tokenBox = document.getElementById("atoken"), typed = tokenBox ? tokenBox.value : null;   // a refresh must not wipe a token that is being typed
   var ae = document.activeElement, keep = ae && ae.id && view.contains(ae) ? { id: ae.id, s: ae.selectionStart, e: ae.selectionEnd } : null;   // typing in the search box survives a refresh
