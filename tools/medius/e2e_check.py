@@ -259,8 +259,10 @@ def main():
         svo_ip = dns_a(dns_ip, u.hostname)        # the game resolves the SVO host through our DNS too
         print("    DNS  %s -> %s" % (u.hostname, svo_ip))
 
-    ticket = json.loads((HERE.parents[1] / "server" / "test" / "fixtures" / "svo" / "POST_motorstormpr_https_ticket_login.json")
-                        .read_text(encoding="utf-8"))[0]["request_body"].encode("latin-1")
+    # the ticket signed with the test key (node tools/medius/make_test_ticket.mjs); the stack must run in test mode
+    test_ticket = HERE / "test_ticket.bin"
+    ticket = test_ticket.read_bytes() if test_ticket.exists() else json.loads(
+        (HERE.parents[1] / "server" / "test" / "fixtures" / "svo" / "POST_motorstormpr_https_ticket_login.json").read_text(encoding="utf-8"))[0]["request_body"].encode("latin-1")
     print("[2b] MAS :10075 session + NP ticket login")
     login = mas_login(ip, 10075, ticket)
     if login:
@@ -279,7 +281,7 @@ def main():
                      .read_text(encoding="utf-8"))[0]
     st, good, body = svo(svo_ip, u.port, "POST",
                          "/motorstormpr/https:ticket/login?sig=x&userContext=0&sigclass=0&siglength=16&timeZone=1&languageID=1",
-                         body=rec["request_body"].encode("latin-1"))
+                         body=ticket)
     aid = body.split("<accountID>")[1].split("<")[0] if "<accountID>" in body else "?"
     print("    login        %d mac=%s accountID=%s" % (st, good, aid))
     ok &= st == 200 and good and aid != "?"

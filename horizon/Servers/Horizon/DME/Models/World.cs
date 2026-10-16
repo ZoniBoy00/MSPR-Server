@@ -412,9 +412,7 @@ namespace Horizon.DME.Models
 
         public void SendTcpAppSingle(DMEObject source, short targetDmeId, byte[] Payload, Action<RT_MSG_CLIENT_APP_SINGLE, DMEObject>? modifyMessagePerClient = null)
         {
-            DMEObject? target = _clients.FirstOrDefault(x => x.Value.DmeId == targetDmeId).Value;
-
-            if (target != null && target.IsAuthenticated && target.IsConnected && target.HasRecvFlag(RT_RECV_FLAG.RECV_SINGLE))
+            if (_clients.TryGetValue(targetDmeId, out DMEObject? target) && target.IsAuthenticated && target.IsConnected && target.HasRecvFlag(RT_RECV_FLAG.RECV_SINGLE))
             {
                 var message = new RT_MSG_CLIENT_APP_SINGLE()
                 {
@@ -430,9 +428,7 @@ namespace Horizon.DME.Models
 
         public void SendUdpAppSingle(DMEObject source, short targetDmeId, byte[] Payload)
         {
-            DMEObject? target = _clients.FirstOrDefault(x => x.Value.DmeId == targetDmeId).Value;
-
-            if (target != null && target.IsAuthenticated && target.IsConnected && target.HasRecvFlag(RT_RECV_FLAG.RECV_SINGLE))
+            if (_clients.TryGetValue(targetDmeId, out DMEObject? target) && target.IsAuthenticated && target.IsConnected && target.HasRecvFlag(RT_RECV_FLAG.RECV_SINGLE))
             {
                 target.EnqueueUdp(new RT_MSG_CLIENT_APP_SINGLE()
                 {

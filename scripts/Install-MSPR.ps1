@@ -68,7 +68,7 @@ if ($nodeOk -or (Have npm)) {
 
 # --- firewall ---
 $tcp = 8080, 10060, 10071, 10073, 10075, 10077, 10078, 10079
-$udp = 53, '50000-50099', 50100
+$udp = 53, '50000-50099'
 if ($Firewall) {
     $admin = ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
     if (-not $admin) { Bad "firewall rules need administrator rights: run PowerShell as administrator and .\Install-MSPR.ps1 -Firewall" }

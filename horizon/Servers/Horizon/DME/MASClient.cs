@@ -75,11 +75,11 @@ namespace Horizon.DME
             };
 
             // Remove client on disconnect
-            _scertHandler.OnChannelInactive += async (channel) =>
+            _scertHandler.OnChannelInactive += (channel) =>
             {
                 LoggerAccessor.LogWarn("MAS was disconnected or lost connection.");
                 TimeLostConnection = DateTimeUtils.GetHighPrecisionUtcTime();
-                await Stop();
+                _ = Stop();   // not awaited: the handler runs on the event loop that Stop() shuts down
             };
 
             // Queue all incoming messages
@@ -158,11 +158,13 @@ namespace Horizon.DME
         {
             if (_masChannel != null)
             {
-                await _masChannel.CloseAsync();
+                if (!await _masChannel.CloseAsync().TryAwait(TimeSpan.FromSeconds(2)))
+                    LoggerAccessor.LogWarn("[MASClient] - Stop() - timed out closing the channel");
                 _masChannel = null;
             }
             if (_group != null)
-                await _group.ShutdownGracefullyAsync(TimeSpan.FromMilliseconds(100), TimeSpan.FromSeconds(1));
+                if (!await _group.ShutdownGracefullyAsync(TimeSpan.FromMilliseconds(100), TimeSpan.FromSeconds(1)).TryAwait(TimeSpan.FromSeconds(3)))
+                    LoggerAccessor.LogWarn("[MASClient] - Stop() - timed out shutting down the event loop");
 
             _masRecvQueue.Clear();
             _masSendQueue.Clear();
@@ -409,7 +411,8 @@ namespace Horizon.DME
                 case RT_MSG_SERVER_FORCED_DISCONNECT serverForcedDisconnect:
                 case RT_MSG_CLIENT_DISCONNECT_WITH_REASON clientDisconnectWithReason:
                     {
-                        await serverChannel.CloseAsync();
+                        if (!await serverChannel.CloseAsync().TryAwait(TimeSpan.FromSeconds(2)))
+                            LoggerAccessor.LogWarn("[MASClient] - timed out closing the server channel");
                         _masState = MASConnectionState.NO_CONNECTION;
                         break;
                     }

@@ -122,6 +122,13 @@ Set-JsonFile (Join-Path $horizon 'static\muis.json') {
 Set-JsonFile (Join-Path $horizon 'static\horizon.json') {
     param($m)
     if ($m.prometheus) { $m.prometheus.enabled = $false }   # metrics endpoint :1234 not used
+    if ($m.bwps) { $m.bwps.enabled = $false }               # bandwidth probe (UDP 50100): the game never talks to it in the captures
+}
+# MAPS (profile server, TCP 10471 / UDP 10472) and the second MAS port 10475 are not used either: fewer open ports
+Set-JsonFile (Join-Path $horizon 'static\medius.json') {
+    param($m)
+    $m.EnableMAPS = $false
+    $m.MASPorts = @(10075)
 }
 
 Set-JsonFile (Join-Path $horizon 'static\dme.json') {
@@ -159,6 +166,8 @@ Start-Process cmd.exe -WorkingDirectory $ts -WindowStyle Minimized `
 # --- 2. Horizon (Medius + DME) ---
 $env:MSPR_MM_MIN_PLAYERS = $(if ($TestMinPlayers -gt 0) { "$TestMinPlayers" } else { '' })
 $env:HORIZON_LOG_LEVEL = $LogLevel
+# test mode: the end-to-end check signs its NP ticket with a test key that Horizon then trusts (tools\medius\make_test_ticket.mjs)
+if ($TestMode -and (Get-Command node -ErrorAction SilentlyContinue)) { & node (Join-Path $repo 'tools\medius\make_test_ticket.mjs') | Out-Null }
 $hzArgs = if ($TestMode) { '/c "{0}" test' -f "$scripts\run_horizon.cmd" } else { '/c "{0}"' -f "$scripts\run_horizon.cmd" }
 Start-Process cmd.exe -ArgumentList $hzArgs -WindowStyle Minimized
 

@@ -6,7 +6,7 @@ namespace Horizon.RT.Cryptography
     public class CipherService
     {
         private ICipherFactory _factory = null;
-        private Dictionary<CipherContext, ICipher> _ciphers = new Dictionary<CipherContext, ICipher>();
+        private readonly System.Collections.Concurrent.ConcurrentDictionary<CipherContext, ICipher> _ciphers = new System.Collections.Concurrent.ConcurrentDictionary<CipherContext, ICipher>();
 
         public bool EnableEncryption { get; set; } = true;
 
@@ -17,27 +17,18 @@ namespace Horizon.RT.Cryptography
 
         public void GenerateCipher(CipherContext context)
         {
-            if (!_ciphers.ContainsKey(context))
-                _ciphers.Add(context, _factory.CreateNew(context));
-            else
-                _ciphers[context] = _factory.CreateNew(context);
+            _ciphers[context] = _factory.CreateNew(context);
         }
 
         public void GenerateCipher(CipherContext context, byte[] publicKey)
         {
-            if (!_ciphers.ContainsKey(context))
-                _ciphers.Add(context, _factory.CreateNew(context, publicKey));
-            else
-                _ciphers[context] = _factory.CreateNew(context, publicKey);
+            _ciphers[context] = _factory.CreateNew(context, publicKey);
         }
 
         public void GenerateCipher(RSA.RsaKeyPair rsaKeyPair)
         {
             CipherContext context = CipherContext.RSA_AUTH;
-            if (!_ciphers.ContainsKey(context))
-                _ciphers.Add(context, _factory.CreateNew(rsaKeyPair));
-            else
-                _ciphers[context] = _factory.CreateNew(rsaKeyPair);
+            _ciphers[context] = _factory.CreateNew(rsaKeyPair);
         }
 
         public ICipher GetCipher(CipherContext context)
@@ -54,10 +45,7 @@ namespace Horizon.RT.Cryptography
 
         public void SetCipher(CipherContext context, ICipher cipher)
         {
-            if (!_ciphers.ContainsKey(context))
-                _ciphers.Add(context, cipher);
-            else
-                _ciphers[context] = cipher;
+            _ciphers[context] = cipher;
         }
 
         public bool HasKey(CipherContext context)

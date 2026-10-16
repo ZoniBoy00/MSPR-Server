@@ -124,11 +124,11 @@ namespace Horizon.DME
             };
 
             // Remove client on disconnect
-            _scertHandler.OnChannelInactive += async (channel) =>
+            _scertHandler.OnChannelInactive += (channel) =>
             {
                 LoggerAccessor.LogError("Lost connection to MPS");
                 TimeLostConnection = DateTimeUtils.GetHighPrecisionUtcTime();
-                await Stop();
+                _ = Stop();   // not awaited: the handler runs on the event loop that Stop() shuts down
             };
 
             // Queue all incoming messages
@@ -167,11 +167,13 @@ namespace Horizon.DME
             await Task.WhenAll(_worlds.Select(x => x.Stop()));
             if (_mpsChannel != null)
             {
-                await _mpsChannel.CloseAsync();
+                if (!await _mpsChannel.CloseAsync().TryAwait(TimeSpan.FromSeconds(2)))
+                    LoggerAccessor.LogWarn("[MPSClient] - Stop() - timed out closing the channel");
                 _mpsChannel = null;
             }
             if (_group != null)
-                await _group.ShutdownGracefullyAsync(TimeSpan.FromMilliseconds(100), TimeSpan.FromSeconds(1));
+                if (!await _group.ShutdownGracefullyAsync(TimeSpan.FromMilliseconds(100), TimeSpan.FromSeconds(1)).TryAwait(TimeSpan.FromSeconds(3)))
+                    LoggerAccessor.LogWarn("[MPSClient] - Stop() - timed out shutting down the event loop");
 
             _worlds.Clear();
             _removeWorldQueue.Clear();
@@ -405,7 +407,8 @@ namespace Horizon.DME
                 case RT_MSG_SERVER_FORCED_DISCONNECT serverForcedDisconnect:
                 case RT_MSG_CLIENT_DISCONNECT_WITH_REASON clientDisconnectWithReason:
                     {
-                        await serverChannel.CloseAsync();
+                        if (!await serverChannel.CloseAsync().TryAwait(TimeSpan.FromSeconds(2)))
+                            LoggerAccessor.LogWarn("[MPSClient] - timed out closing the server channel");
                         _mpsState = MPSConnectionState.NO_CONNECTION;
                         break;
                     }

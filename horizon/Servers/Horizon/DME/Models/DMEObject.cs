@@ -371,9 +371,11 @@ namespace Horizon.DME.Models
 
         #region Connection / Disconnection
 
+        private int _isStopping = 0;
+
         public async Task Stop()
         {
-            if (IsDestroyed)
+            if (IsDestroyed || System.Threading.Interlocked.Exchange(ref _isStopping, 1) == 1)
                 return;
 
             try
@@ -383,7 +385,7 @@ namespace Horizon.DME.Models
 
                 if (Tcp != null)
                 {
-                    await Tcp.CloseAsync();
+                    await Tcp.CloseAsync().TryAwait(TimeSpan.FromSeconds(2));
                     Tcp = null;
                 }
             }

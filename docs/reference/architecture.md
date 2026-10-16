@@ -22,7 +22,6 @@ Medius is the online platform the game was built on. Horizon is an open-source i
 | MMS (matchmaking) | TCP 10079 | Horizon |
 | MPS (the game connects to it) | TCP 10077 | Horizon |
 | DME (race server) | TCP 10073, UDP 50000 and up, one UDP port per player | Horizon |
-| Bandwidth probe | UDP 50100 | Horizon |
 | Horizon's own HTTP endpoints | TCP 10076, 61920, 8443, 3001 | Horizon, local use only (keep closed in the firewall) |
 
 ## What happens when a player goes online
@@ -49,6 +48,8 @@ One SQLite database, `server/data/mspr.sqlite`, belongs to the TypeScript server
 | `stats_history` | The last versions of each account's stats blob, for tracing cheated changes. |
 | `anticheat_events` | Findings of the anti-cheat to review (they reject nothing). |
 | `weekend_views` | When a player last looked at a Speed/Volcano Weekend board (clears the "somebody beat your time" marker). |
+
+What in `horizon/` is specific to the game and what was changed for operation is listed in [horizon/MSPR-CHANGES.md](../../horizon/MSPR-CHANGES.md).
 
 Horizon keeps a backup copy of the accounts in `static/mspr_accounts.json` and reaches the database through the loopback-only `/horizon/*` API of the TypeScript server.
 

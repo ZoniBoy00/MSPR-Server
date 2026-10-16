@@ -32,3 +32,8 @@ _archive/
 *.zip
 .DS_Store
 Thumbs.db
+
+# test key and ticket of the end-to-end check (made by tools/medius/make_test_ticket.mjs)
+tools/medius/test_rpcn_*.pem
+tools/medius/test_ticket.bin
+tools/medius/test_tickets.json

@@ -9,7 +9,7 @@ The server is a checkout of this repository. Two systemd services run from it:
 | Service | What it runs | Port(s) |
 |---|---|---|
 | `mspr-server` | `server/` (TypeScript): DNS, SVO, status site and JSON API, SQLite database | UDP 53, TCP 10060 (SVO), TCP 8080 (web; `web.port` in `server/config/mspr.json`) |
-| `mspr-horizon` | Horizon (C#): Medius MUIS, MAS, MLS, MPS, MMS and DME | TCP 10071, 10073, 10075, 10077, 10078, 10079; UDP 50000-50099 (DME), 50100 (bandwidth probe) |
+| `mspr-horizon` | Horizon (C#): Medius MUIS, MAS, MLS, MPS, MMS and DME | TCP 10071, 10073, 10075, 10077, 10078, 10079; UDP 50000-50099 (DME) |
 
 The repository layout is described in the [README](../../README.md). Run the services from a checkout of the repository, or from a copy of `server/` plus a built Horizon, whichever fits your setup. Keep the database (`server/data`), the local config (`server/config/mspr.json`) and the Horizon build output out of version control; they are in `.gitignore`.
 
@@ -29,7 +29,6 @@ This is the one port list. The Windows guide, the architecture page and the Wind
 | TCP | 10077 | MPS | the game connects to it (seen in the captures of the original service), so it must be reachable |
 | TCP | 10073 | DME | race server, connection setup |
 | UDP | **50000-50099** | DME | race data. **Each player gets its own port** (50000, 50001, ...), so opening only 50000 lets just the first player in and every later player fails to join. |
-| UDP | 50100 | DME | bandwidth probe service (BWPS) |
 | TCP | 10060 | SVO | leaderboards, EULA, announcement, race results |
 | TCP | 8080 (live server: 8081) | status site | only if the site should be public; the port is `web.port` in `server/config/mspr.json` |
 

@@ -9,7 +9,7 @@ What the server exposes, what it trusts and what was hardened. Reviewed (code re
 | UDP 53 (DNS) | everybody | Answers the game's own names with this server's address, forwards only the names in `dns.forwardNames` (PlayStation Network) to the upstream resolver and refuses the rest, so it is not an open resolver. Open-resolver scanners do probe it; they get `SERVFAIL`. The firewall limits each source to 10 queries a second (burst 50). |
 | TCP 10060 (SVO) | everybody | Plain HTTP, the game's own protocol. No password exists: the player is identified by the NP ticket and a session cookie. |
 | TCP 8080/8081 (status site, API) | everybody if the port is open | Read-only. Restricted parts need the admin token (see [api](api.md#privacy-and-access)). |
-| TCP 10071-10079, UDP 50000-50100 | everybody | Medius and DME, the game's binary protocol. |
+| TCP 10071-10079, UDP 50000-50099 | everybody | Medius and DME, the game's binary protocol. |
 | TCP 10076, 61920, 8443, 3001 | nobody | Horizon's own HTTP endpoints listen on all interfaces; the firewall (IPv4 `INPUT DROP` and the IPv6 chain) keeps them closed. `/GetMspr/` additionally answers only the loopback address. |
 
 ## What the server trusts, and what it checks

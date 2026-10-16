@@ -78,7 +78,7 @@ The files are in `server\config\`. Text changes show immediately; `mspr.json` ch
 
 1. Forward these ports on the router to the server PC:
    * TCP 10060, 10071, 10073, 10075, 10077, 10078, 10079 (and the status port, 8080 by default, if the site should be public)
-   * UDP 53, **50000-50099** (the DME gives every player its own port; opening only 50000 lets just the first player in), 50100
+   * UDP 53, **50000-50099** (the DME gives every player its own port; opening only 50000 lets just the first player in)
    * The full list with the reason for each port is in [deployment](deployment.md#firewall-and-ports).
 2. Start `START-MSPR.cmd -PublicIp auto` (or `-PublicIp <public IP>`).
 3. Friends set the server's **public IP** as MSPR's *DNS address* in RPCS3.

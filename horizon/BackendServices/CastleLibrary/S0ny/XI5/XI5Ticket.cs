@@ -29,6 +29,10 @@ namespace CastleLibrary.S0ny.XI5
         private const byte headerLengthVer40 = 10;
 
         private static readonly ECDsaSigner ECDsaRPCN;
+        // TEST MODE ONLY: a second RPCN key, so that the end-to-end check can use a ticket it signed itself (the captured tickets are
+        // expired and the one in the repository was edited). Loaded only when HORIZON_XI5_IGNORE_EXPIRY=1 and HORIZON_XI5_TEST_PUBKEY names a PEM
+        // file; in a normal run the variable is ignored.
+        private static readonly ECDsaSigner? ECDsaRPCNTest;
 
         static XI5Ticket()
         {
@@ -39,6 +43,17 @@ namespace CastleLibrary.S0ny.XI5
                 "0Eebk9gcQrCr32xCGRox4x+TNC+PAzvVKcLFf9taCn0=\r\n" +
                 "-----END PUBLIC KEY-----")))
                 ECDsaRPCN.Init(false, (ECPublicKeyParameters)pr.ReadObject());
+
+            string? testKeyFile = Environment.GetEnvironmentVariable("HORIZON_XI5_TEST_PUBKEY");
+            if (Environment.GetEnvironmentVariable("HORIZON_XI5_IGNORE_EXPIRY") == "1" && !string.IsNullOrEmpty(testKeyFile) && File.Exists(testKeyFile))
+            {
+                using (PemReader tr = new PemReader(new StringReader(File.ReadAllText(testKeyFile))))
+                {
+                    ECDsaRPCNTest = new ECDsaSigner();
+                    ECDsaRPCNTest.Init(false, (ECPublicKeyParameters)tr.ReadObject());
+                }
+                Console.Error.WriteLine("[XI5Ticket] TEST MODE: tickets signed with the test key in " + testKeyFile + " are accepted as RPCN tickets.");
+            }
         }
 
         public TicketVersion TicketVersion { get; private set; }
@@ -213,7 +228,8 @@ namespace CastleLibrary.S0ny.XI5
                     ticket.HashName = "SHA224";
                     ticket.CurveName = "secp224k1";
 
-                    ticket.Valid = isValidTimestamp && isValidServiceId && ECDsaRPCN.VerifySignature(ticket.HashedMessage, ((DerInteger)seq[0]).Value, ((DerInteger)seq[1]).Value);
+                    ticket.Valid = isValidTimestamp && isValidServiceId && (ECDsaRPCN.VerifySignature(ticket.HashedMessage, ((DerInteger)seq[0]).Value, ((DerInteger)seq[1]).Value)
+                        || (ECDsaRPCNTest != null && ECDsaRPCNTest.VerifySignature(ticket.HashedMessage, ((DerInteger)seq[0]).Value, ((DerInteger)seq[1]).Value)));
                 }
             }
             else if (ticket.SignatureData.Length == 56)
