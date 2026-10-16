@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How the server works and how to read its logs
+    url: https://github.com/ZoniBoy00/MSPR-Server/blob/main/docs/guides/diagnostics.md
+    about: The guide to the logs and the events the server writes.
+  - name: Research behind the server (protocol, game files, captures)
+    url: https://github.com/ZoniBoy00/MSPR-RE
+    about: The reverse engineering notes and tools.

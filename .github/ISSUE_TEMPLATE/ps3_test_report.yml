@@ -1,0 +1,68 @@
+name: PS3 test report
+description: You tried the server on a real PS3 (also if everything worked)
+title: "[PS3 test] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A real PS3 has only been tried briefly, so reports are valuable even when everything works. The one open question: **do the results of a race show up right after the race, or only later?** Please fill in what you can.
+  - type: input
+    id: when
+    attributes:
+      label: When did you play? (date, time and your time zone)
+    validations:
+      required: true
+  - type: input
+    id: player
+    attributes:
+      label: Your PSN online id
+      description: It is how we find your events in the server log.
+    validations:
+      required: true
+  - type: dropdown
+    id: login
+    attributes:
+      label: Did you get online (login, EULA, menus)?
+      options:
+        - Yes, no problems
+        - Yes, but with errors (describe below)
+        - No
+    validations:
+      required: true
+  - type: checkboxes
+    id: tried
+    attributes:
+      label: What did you try?
+      options:
+        - label: Leaderboards (Time Attack / Speed Weekend / Ranked)
+        - label: Custom Game
+        - label: Ranked
+        - label: Casual
+        - label: Time Attack with a ghost
+        - label: Speed Weekend
+  - type: dropdown
+    id: results
+    attributes:
+      label: After a race, did the result show up (leaderboard, XP, rank)?
+      options:
+        - Not tried
+        - Yes, straight away
+        - Only after a while or after going to the menus / logging in again
+        - No, not at all
+    validations:
+      required: true
+  - type: input
+    id: players
+    attributes:
+      label: How many players were in the races? (and on which platforms, if you know)
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Error texts, dialogs, freezes, and anything that looked different from RPCS3 or from the original service.
+  - type: input
+    id: network
+    attributes:
+      label: Your network
+      description: For example "home router, PS3 on wifi, DNS set manually to the server's address". No need for any private details.

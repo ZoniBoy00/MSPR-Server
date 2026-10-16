@@ -1,0 +1,75 @@
+name: Problem during play
+description: Something did not work while playing on the server (login, lobby, matchmaking, a race, results, leaderboards)
+title: "[problem] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing! The server writes a log of what happens, so the **time, your player name and the platform** are what let us find your case. Please do not paste passwords, tokens or other players' personal details.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Real PS3 (PSN account)
+        - RPCS3 (RPCN account)
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Game version
+      options:
+        - US BCUS98155, update 1.03
+        - EU BCES00129
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did it go wrong?
+      options:
+        - Connecting / login / EULA
+        - Menus and leaderboards
+        - Custom Game
+        - Ranked
+        - Casual
+        - Time Attack / ghosts
+        - Speed Weekend
+        - After a race (results, XP, ranking)
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: When did it happen? (date, time and your time zone)
+      description: The more exact the better, for example "16 Oct 18:42 Finnish time, race ended about 18:50".
+    validations:
+      required: true
+  - type: input
+    id: player
+    attributes:
+      label: Your player name (online id)
+      description: As it appears in the game. It is how we find your events in the log.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you saw (error text, a dialog, a freeze) and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: players
+    attributes:
+      label: How many players were in the game? (and who, if you know)
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: Screenshots, whether it happens every time, how you are connected (home network, VPN, a different DNS than the server's), the RPCS3 log for RPCS3 problems.
