@@ -1,0 +1,27 @@
+[
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getRegion?country=fi",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "d14be2c25929c510c63d08ad7af4cce4",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:14:06 GMT",
+   "X-SVOMac": "1fb95ced3a7696bd2aa896e356cb8d0a"
+  },
+  "response_body": "<XML>\n    <region id=\"1\" mediuslocation=\"us\"/>\n</XML>"
+ }
+]

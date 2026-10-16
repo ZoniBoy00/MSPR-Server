@@ -1,0 +1,152 @@
+[
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getAnnouncement?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a71db4c78d0f19b31f4d95da5af666d7",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:14:07 GMT",
+   "X-SVOMac": "e2d9585fc8aa7d48d80bb2880f062dd3"
+  },
+  "response_body": "<XML>\r\n    <AnnouncementTxt>\r\n        <msg>Welcome to Motorstorm: Pacfic Rift! Brought to you by OriginalService. Join our discord at: https://discord.gg/K8d8Ge5Kh</msg>\r\n    </AnnouncementTxt>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getAnnouncement?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a71db4c78d0f19b31f4d95da5af666d7",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:14:20 GMT",
+   "X-SVOMac": "e2d9585fc8aa7d48d80bb2880f062dd3"
+  },
+  "response_body": "<XML>\r\n    <AnnouncementTxt>\r\n        <msg>Welcome to Motorstorm: Pacfic Rift! Brought to you by OriginalService. Join our discord at: https://discord.gg/K8d8Ge5Kh</msg>\r\n    </AnnouncementTxt>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getAnnouncement?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a71db4c78d0f19b31f4d95da5af666d7",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:15:08 GMT",
+   "X-SVOMac": "e2d9585fc8aa7d48d80bb2880f062dd3"
+  },
+  "response_body": "<XML>\r\n    <AnnouncementTxt>\r\n        <msg>Welcome to Motorstorm: Pacfic Rift! Brought to you by OriginalService. Join our discord at: https://discord.gg/K8d8Ge5Kh</msg>\r\n    </AnnouncementTxt>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getAnnouncement?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a71db4c78d0f19b31f4d95da5af666d7",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:15:53 GMT",
+   "X-SVOMac": "e2d9585fc8aa7d48d80bb2880f062dd3"
+  },
+  "response_body": "<XML>\r\n    <AnnouncementTxt>\r\n        <msg>Welcome to Motorstorm: Pacfic Rift! Brought to you by OriginalService. Join our discord at: https://discord.gg/K8d8Ge5Kh</msg>\r\n    </AnnouncementTxt>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getAnnouncement?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a71db4c78d0f19b31f4d95da5af666d7",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:16:40 GMT",
+   "X-SVOMac": "e2d9585fc8aa7d48d80bb2880f062dd3"
+  },
+  "response_body": "<XML>\r\n    <AnnouncementTxt>\r\n        <msg>Welcome to Motorstorm: Pacfic Rift! Brought to you by OriginalService. Join our discord at: https://discord.gg/K8d8Ge5Kh</msg>\r\n    </AnnouncementTxt>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getAnnouncement?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a71db4c78d0f19b31f4d95da5af666d7",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:52:10 GMT",
+   "X-SVOMac": "e2d9585fc8aa7d48d80bb2880f062dd3"
+  },
+  "response_body": "<XML>\r\n    <AnnouncementTxt>\r\n        <msg>Welcome to Motorstorm: Pacfic Rift! Brought to you by OriginalService. Join our discord at: https://discord.gg/K8d8Ge5Kh</msg>\r\n    </AnnouncementTxt>\r\n</XML>\r\n"
+ }
+]

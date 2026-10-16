@@ -1,0 +1,277 @@
+[
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "2c40c28d0dc4b18467944e442c8344f4",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:14:06 GMT",
+   "X-SVOMac": "d7467860e5f2b6ca6b5bb5b10e994b92"
+  },
+  "response_body": "<XML>\r\n    <eula>\r\n        <text>\r\n            Welcome to the OriginalService Online Project!\r\n            There are only a few simple rules that we ask you to follow:\r\n            - Absolutely NO CHEATING OR GLITCHING in non-designated rooms.\r\n            - Absolutely NO FRAMELIMITING or FPS boosting at any time.\r\n            - Treat all other players with respect.\r\n            \r\n            If you have any questions or would like to check the server status, please visit  https://socomcommunity.com\r\n             Enjoy your stay!\r\n\r\n            This server is provided to you AS IS and is in no way endorsed or affiliated with Sony Computer Entertainment (SCE).\r\n            PS2 Rewired/SOCOMCommunity and its moderators reserve the right to ban anyone at any time without reason.\r\n        </text>\r\n        <accepted>false</accepted>\r\n    </eula>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "2c40c28d0dc4b18467944e442c8344f4",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:14:19 GMT",
+   "X-SVOMac": "d7467860e5f2b6ca6b5bb5b10e994b92"
+  },
+  "response_body": "<XML>\r\n    <eula>\r\n        <text>\r\n            Welcome to the OriginalService Online Project!\r\n            There are only a few simple rules that we ask you to follow:\r\n            - Absolutely NO CHEATING OR GLITCHING in non-designated rooms.\r\n            - Absolutely NO FRAMELIMITING or FPS boosting at any time.\r\n            - Treat all other players with respect.\r\n            \r\n            If you have any questions or would like to check the server status, please visit  https://socomcommunity.com\r\n             Enjoy your stay!\r\n\r\n            This server is provided to you AS IS and is in no way endorsed or affiliated with Sony Computer Entertainment (SCE).\r\n            PS2 Rewired/SOCOMCommunity and its moderators reserve the right to ban anyone at any time without reason.\r\n        </text>\r\n        <accepted>false</accepted>\r\n    </eula>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "2c40c28d0dc4b18467944e442c8344f4",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:15:07 GMT",
+   "X-SVOMac": "d7467860e5f2b6ca6b5bb5b10e994b92"
+  },
+  "response_body": "<XML>\r\n    <eula>\r\n        <text>\r\n            Welcome to the OriginalService Online Project!\r\n            There are only a few simple rules that we ask you to follow:\r\n            - Absolutely NO CHEATING OR GLITCHING in non-designated rooms.\r\n            - Absolutely NO FRAMELIMITING or FPS boosting at any time.\r\n            - Treat all other players with respect.\r\n            \r\n            If you have any questions or would like to check the server status, please visit  https://socomcommunity.com\r\n             Enjoy your stay!\r\n\r\n            This server is provided to you AS IS and is in no way endorsed or affiliated with Sony Computer Entertainment (SCE).\r\n            PS2 Rewired/SOCOMCommunity and its moderators reserve the right to ban anyone at any time without reason.\r\n        </text>\r\n        <accepted>false</accepted>\r\n    </eula>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "2c40c28d0dc4b18467944e442c8344f4",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:15:52 GMT",
+   "X-SVOMac": "d7467860e5f2b6ca6b5bb5b10e994b92"
+  },
+  "response_body": "<XML>\r\n    <eula>\r\n        <text>\r\n            Welcome to the OriginalService Online Project!\r\n            There are only a few simple rules that we ask you to follow:\r\n            - Absolutely NO CHEATING OR GLITCHING in non-designated rooms.\r\n            - Absolutely NO FRAMELIMITING or FPS boosting at any time.\r\n            - Treat all other players with respect.\r\n            \r\n            If you have any questions or would like to check the server status, please visit  https://socomcommunity.com\r\n             Enjoy your stay!\r\n\r\n            This server is provided to you AS IS and is in no way endorsed or affiliated with Sony Computer Entertainment (SCE).\r\n            PS2 Rewired/SOCOMCommunity and its moderators reserve the right to ban anyone at any time without reason.\r\n        </text>\r\n        <accepted>false</accepted>\r\n    </eula>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "2c40c28d0dc4b18467944e442c8344f4",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:16:39 GMT",
+   "X-SVOMac": "d7467860e5f2b6ca6b5bb5b10e994b92"
+  },
+  "response_body": "<XML>\r\n    <eula>\r\n        <text>\r\n            Welcome to the OriginalService Online Project!\r\n            There are only a few simple rules that we ask you to follow:\r\n            - Absolutely NO CHEATING OR GLITCHING in non-designated rooms.\r\n            - Absolutely NO FRAMELIMITING or FPS boosting at any time.\r\n            - Treat all other players with respect.\r\n            \r\n            If you have any questions or would like to check the server status, please visit  https://socomcommunity.com\r\n             Enjoy your stay!\r\n\r\n            This server is provided to you AS IS and is in no way endorsed or affiliated with Sony Computer Entertainment (SCE).\r\n            PS2 Rewired/SOCOMCommunity and its moderators reserve the right to ban anyone at any time without reason.\r\n        </text>\r\n        <accepted>false</accepted>\r\n    </eula>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "2c40c28d0dc4b18467944e442c8344f4",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:17:20 GMT",
+   "X-SVOMac": "d7467860e5f2b6ca6b5bb5b10e994b92"
+  },
+  "response_body": "<XML>\r\n    <eula>\r\n        <text>\r\n            Welcome to the OriginalService Online Project!\r\n            There are only a few simple rules that we ask you to follow:\r\n            - Absolutely NO CHEATING OR GLITCHING in non-designated rooms.\r\n            - Absolutely NO FRAMELIMITING or FPS boosting at any time.\r\n            - Treat all other players with respect.\r\n            \r\n            If you have any questions or would like to check the server status, please visit  https://socomcommunity.com\r\n             Enjoy your stay!\r\n\r\n            This server is provided to you AS IS and is in no way endorsed or affiliated with Sony Computer Entertainment (SCE).\r\n            PS2 Rewired/SOCOMCommunity and its moderators reserve the right to ban anyone at any time without reason.\r\n        </text>\r\n        <accepted>false</accepted>\r\n    </eula>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "2c40c28d0dc4b18467944e442c8344f4",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:17:45 GMT",
+   "X-SVOMac": "d7467860e5f2b6ca6b5bb5b10e994b92"
+  },
+  "response_body": "<XML>\r\n    <eula>\r\n        <text>\r\n            Welcome to the OriginalService Online Project!\r\n            There are only a few simple rules that we ask you to follow:\r\n            - Absolutely NO CHEATING OR GLITCHING in non-designated rooms.\r\n            - Absolutely NO FRAMELIMITING or FPS boosting at any time.\r\n            - Treat all other players with respect.\r\n            \r\n            If you have any questions or would like to check the server status, please visit  https://socomcommunity.com\r\n             Enjoy your stay!\r\n\r\n            This server is provided to you AS IS and is in no way endorsed or affiliated with Sony Computer Entertainment (SCE).\r\n            PS2 Rewired/SOCOMCommunity and its moderators reserve the right to ban anyone at any time without reason.\r\n        </text>\r\n        <accepted>false</accepted>\r\n    </eula>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "2c40c28d0dc4b18467944e442c8344f4",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:17:59 GMT",
+   "X-SVOMac": "d7467860e5f2b6ca6b5bb5b10e994b92"
+  },
+  "response_body": "<XML>\r\n    <eula>\r\n        <text>\r\n            Welcome to the OriginalService Online Project!\r\n            There are only a few simple rules that we ask you to follow:\r\n            - Absolutely NO CHEATING OR GLITCHING in non-designated rooms.\r\n            - Absolutely NO FRAMELIMITING or FPS boosting at any time.\r\n            - Treat all other players with respect.\r\n            \r\n            If you have any questions or would like to check the server status, please visit  https://socomcommunity.com\r\n             Enjoy your stay!\r\n\r\n            This server is provided to you AS IS and is in no way endorsed or affiliated with Sony Computer Entertainment (SCE).\r\n            PS2 Rewired/SOCOMCommunity and its moderators reserve the right to ban anyone at any time without reason.\r\n        </text>\r\n        <accepted>false</accepted>\r\n    </eula>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "2c40c28d0dc4b18467944e442c8344f4",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:32 GMT",
+   "X-SVOMac": "d7467860e5f2b6ca6b5bb5b10e994b92"
+  },
+  "response_body": "<XML>\r\n    <eula>\r\n        <text>\r\n            Welcome to the OriginalService Online Project!\r\n            There are only a few simple rules that we ask you to follow:\r\n            - Absolutely NO CHEATING OR GLITCHING in non-designated rooms.\r\n            - Absolutely NO FRAMELIMITING or FPS boosting at any time.\r\n            - Treat all other players with respect.\r\n            \r\n            If you have any questions or would like to check the server status, please visit  https://socomcommunity.com\r\n             Enjoy your stay!\r\n\r\n            This server is provided to you AS IS and is in no way endorsed or affiliated with Sony Computer Entertainment (SCE).\r\n            PS2 Rewired/SOCOMCommunity and its moderators reserve the right to ban anyone at any time without reason.\r\n        </text>\r\n        <accepted>false</accepted>\r\n    </eula>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "2c40c28d0dc4b18467944e442c8344f4",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:47 GMT",
+   "X-SVOMac": "d7467860e5f2b6ca6b5bb5b10e994b92"
+  },
+  "response_body": "<XML>\r\n    <eula>\r\n        <text>\r\n            Welcome to the OriginalService Online Project!\r\n            There are only a few simple rules that we ask you to follow:\r\n            - Absolutely NO CHEATING OR GLITCHING in non-designated rooms.\r\n            - Absolutely NO FRAMELIMITING or FPS boosting at any time.\r\n            - Treat all other players with respect.\r\n            \r\n            If you have any questions or would like to check the server status, please visit  https://socomcommunity.com\r\n             Enjoy your stay!\r\n\r\n            This server is provided to you AS IS and is in no way endorsed or affiliated with Sony Computer Entertainment (SCE).\r\n            PS2 Rewired/SOCOMCommunity and its moderators reserve the right to ban anyone at any time without reason.\r\n        </text>\r\n        <accepted>false</accepted>\r\n    </eula>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/getEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "2c40c28d0dc4b18467944e442c8344f4",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:52:09 GMT",
+   "X-SVOMac": "d7467860e5f2b6ca6b5bb5b10e994b92"
+  },
+  "response_body": "<XML>\r\n    <eula>\r\n        <text>\r\n            Welcome to the OriginalService Online Project!\r\n            There are only a few simple rules that we ask you to follow:\r\n            - Absolutely NO CHEATING OR GLITCHING in non-designated rooms.\r\n            - Absolutely NO FRAMELIMITING or FPS boosting at any time.\r\n            - Treat all other players with respect.\r\n            \r\n            If you have any questions or would like to check the server status, please visit  https://socomcommunity.com\r\n             Enjoy your stay!\r\n\r\n            This server is provided to you AS IS and is in no way endorsed or affiliated with Sony Computer Entertainment (SCE).\r\n            PS2 Rewired/SOCOMCommunity and its moderators reserve the right to ban anyone at any time without reason.\r\n        </text>\r\n        <accepted>false</accepted>\r\n    </eula>\r\n</XML>"
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "method": "POST",
+  "uri": "/motorstormpr/finishGame",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "01f8d400b0abfa8ad4d70bfbea234c17",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "364",
+   "Cache-Control": "no-cache",
+   "Content-Type": "application/x-www-form-urlencoded"
+  },
+  "request_body": "location.gameMode=4&location.track=2&location.vehicle=4&endState=1&gameName=0000007a-BillyShears&gameId=150&bestTime=186311&boostDistance=1902011&distanceTravelled=5520824&endNormal=1&furthestBoostDistance=134034&furthestJumpDistance=185000&jumpDistance=3515000&jumps=19&laps=2&placed2=1&position=8&totalRaceTime=185276&totalRaceTimeInFirst=5966&version=2&wrecks=3\r\n\r\n",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:57:29 GMT",
+   "X-SVOMac": "9f2b26f70f1bb592d115aed450e476fc"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ }
+]

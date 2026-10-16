@@ -1,0 +1,276 @@
+[
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/index?languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "X-SVOMac": "78850241082c4d7cd1af10c6a182cdcf",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:14:03 GMT",
+   "X-SVOMac": "d9263d5482abeda8d03c3e0ecec61781"
+  },
+  "response_body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<XML>\r\n    <URL_List>\r\n        <DATA dataType=\"URI\" name=\"ticketLogin\" value=\"https:ticket/login\"/>\r\n        <DATA dataType=\"URI\" name=\"finishGameURI\" value=\"/game/finish\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/timeattack\" value=\"/motorstormpr/leaderboard/timeattack\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/speed\" value=\"/motorstormpr/leaderboard/speed\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/ranked\" value=\"/motorstormpr/leaderboard/ranked\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard\" value=\"/motorstormpr/leaderboard\"/>\r\n        <DATA dataType=\"URI\" name=\"getRegion\" value=\"/motorstormpr/getRegion\"/>\r\n        <DATA dataType=\"URI\" name=\"getEula\" value=\"/motorstormpr/getEula\"/>\r\n        <DATA dataType=\"URI\" name=\"acceptEula\" value=\"/motorstormpr/acceptEula\"/>\r\n        <DATA dataType=\"URI\" name=\"getAnnouncement\" value=\"/motorstormpr/getAnnouncement\"/>\r\n        <DATA dataType=\"URI\" name=\"home\" value=\"/motorstormpr/home\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/beaten\" value=\"/motorstormpr/speed-weekend/beaten\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/viewed\" value=\"/motorstormpr/speed-weekend/viewed\"/>\r\n        <BROWSER_INIT name=\"init\"/>\r\n    </URL_List>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/index?languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a4aedb2afbd37ec184b1c267ba65c228",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:14:17 GMT",
+   "X-SVOMac": "1cf16876e7b19eb82a7222e170afc337"
+  },
+  "response_body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<XML>\r\n    <URL_List>\r\n        <DATA dataType=\"URI\" name=\"ticketLogin\" value=\"https:ticket/login\"/>\r\n        <DATA dataType=\"URI\" name=\"finishGameURI\" value=\"/game/finish\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/timeattack\" value=\"/motorstormpr/leaderboard/timeattack\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/speed\" value=\"/motorstormpr/leaderboard/speed\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/ranked\" value=\"/motorstormpr/leaderboard/ranked\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard\" value=\"/motorstormpr/leaderboard\"/>\r\n        <DATA dataType=\"URI\" name=\"getRegion\" value=\"/motorstormpr/getRegion\"/>\r\n        <DATA dataType=\"URI\" name=\"getEula\" value=\"/motorstormpr/getEula\"/>\r\n        <DATA dataType=\"URI\" name=\"acceptEula\" value=\"/motorstormpr/acceptEula\"/>\r\n        <DATA dataType=\"URI\" name=\"getAnnouncement\" value=\"/motorstormpr/getAnnouncement\"/>\r\n        <DATA dataType=\"URI\" name=\"home\" value=\"/motorstormpr/home\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/beaten\" value=\"/motorstormpr/speed-weekend/beaten\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/viewed\" value=\"/motorstormpr/speed-weekend/viewed\"/>\r\n        <BROWSER_INIT name=\"init\"/>\r\n    </URL_List>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/index?languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a4aedb2afbd37ec184b1c267ba65c228",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:15:05 GMT",
+   "X-SVOMac": "1cf16876e7b19eb82a7222e170afc337"
+  },
+  "response_body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<XML>\r\n    <URL_List>\r\n        <DATA dataType=\"URI\" name=\"ticketLogin\" value=\"https:ticket/login\"/>\r\n        <DATA dataType=\"URI\" name=\"finishGameURI\" value=\"/game/finish\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/timeattack\" value=\"/motorstormpr/leaderboard/timeattack\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/speed\" value=\"/motorstormpr/leaderboard/speed\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/ranked\" value=\"/motorstormpr/leaderboard/ranked\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard\" value=\"/motorstormpr/leaderboard\"/>\r\n        <DATA dataType=\"URI\" name=\"getRegion\" value=\"/motorstormpr/getRegion\"/>\r\n        <DATA dataType=\"URI\" name=\"getEula\" value=\"/motorstormpr/getEula\"/>\r\n        <DATA dataType=\"URI\" name=\"acceptEula\" value=\"/motorstormpr/acceptEula\"/>\r\n        <DATA dataType=\"URI\" name=\"getAnnouncement\" value=\"/motorstormpr/getAnnouncement\"/>\r\n        <DATA dataType=\"URI\" name=\"home\" value=\"/motorstormpr/home\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/beaten\" value=\"/motorstormpr/speed-weekend/beaten\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/viewed\" value=\"/motorstormpr/speed-weekend/viewed\"/>\r\n        <BROWSER_INIT name=\"init\"/>\r\n    </URL_List>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/index?languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a4aedb2afbd37ec184b1c267ba65c228",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:15:50 GMT",
+   "X-SVOMac": "1cf16876e7b19eb82a7222e170afc337"
+  },
+  "response_body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<XML>\r\n    <URL_List>\r\n        <DATA dataType=\"URI\" name=\"ticketLogin\" value=\"https:ticket/login\"/>\r\n        <DATA dataType=\"URI\" name=\"finishGameURI\" value=\"/game/finish\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/timeattack\" value=\"/motorstormpr/leaderboard/timeattack\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/speed\" value=\"/motorstormpr/leaderboard/speed\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/ranked\" value=\"/motorstormpr/leaderboard/ranked\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard\" value=\"/motorstormpr/leaderboard\"/>\r\n        <DATA dataType=\"URI\" name=\"getRegion\" value=\"/motorstormpr/getRegion\"/>\r\n        <DATA dataType=\"URI\" name=\"getEula\" value=\"/motorstormpr/getEula\"/>\r\n        <DATA dataType=\"URI\" name=\"acceptEula\" value=\"/motorstormpr/acceptEula\"/>\r\n        <DATA dataType=\"URI\" name=\"getAnnouncement\" value=\"/motorstormpr/getAnnouncement\"/>\r\n        <DATA dataType=\"URI\" name=\"home\" value=\"/motorstormpr/home\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/beaten\" value=\"/motorstormpr/speed-weekend/beaten\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/viewed\" value=\"/motorstormpr/speed-weekend/viewed\"/>\r\n        <BROWSER_INIT name=\"init\"/>\r\n    </URL_List>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/index?languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a4aedb2afbd37ec184b1c267ba65c228",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:16:37 GMT",
+   "X-SVOMac": "1cf16876e7b19eb82a7222e170afc337"
+  },
+  "response_body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<XML>\r\n    <URL_List>\r\n        <DATA dataType=\"URI\" name=\"ticketLogin\" value=\"https:ticket/login\"/>\r\n        <DATA dataType=\"URI\" name=\"finishGameURI\" value=\"/game/finish\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/timeattack\" value=\"/motorstormpr/leaderboard/timeattack\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/speed\" value=\"/motorstormpr/leaderboard/speed\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/ranked\" value=\"/motorstormpr/leaderboard/ranked\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard\" value=\"/motorstormpr/leaderboard\"/>\r\n        <DATA dataType=\"URI\" name=\"getRegion\" value=\"/motorstormpr/getRegion\"/>\r\n        <DATA dataType=\"URI\" name=\"getEula\" value=\"/motorstormpr/getEula\"/>\r\n        <DATA dataType=\"URI\" name=\"acceptEula\" value=\"/motorstormpr/acceptEula\"/>\r\n        <DATA dataType=\"URI\" name=\"getAnnouncement\" value=\"/motorstormpr/getAnnouncement\"/>\r\n        <DATA dataType=\"URI\" name=\"home\" value=\"/motorstormpr/home\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/beaten\" value=\"/motorstormpr/speed-weekend/beaten\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/viewed\" value=\"/motorstormpr/speed-weekend/viewed\"/>\r\n        <BROWSER_INIT name=\"init\"/>\r\n    </URL_List>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/index?languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a4aedb2afbd37ec184b1c267ba65c228",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:17:18 GMT",
+   "X-SVOMac": "1cf16876e7b19eb82a7222e170afc337"
+  },
+  "response_body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<XML>\r\n    <URL_List>\r\n        <DATA dataType=\"URI\" name=\"ticketLogin\" value=\"https:ticket/login\"/>\r\n        <DATA dataType=\"URI\" name=\"finishGameURI\" value=\"/game/finish\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/timeattack\" value=\"/motorstormpr/leaderboard/timeattack\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/speed\" value=\"/motorstormpr/leaderboard/speed\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/ranked\" value=\"/motorstormpr/leaderboard/ranked\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard\" value=\"/motorstormpr/leaderboard\"/>\r\n        <DATA dataType=\"URI\" name=\"getRegion\" value=\"/motorstormpr/getRegion\"/>\r\n        <DATA dataType=\"URI\" name=\"getEula\" value=\"/motorstormpr/getEula\"/>\r\n        <DATA dataType=\"URI\" name=\"acceptEula\" value=\"/motorstormpr/acceptEula\"/>\r\n        <DATA dataType=\"URI\" name=\"getAnnouncement\" value=\"/motorstormpr/getAnnouncement\"/>\r\n        <DATA dataType=\"URI\" name=\"home\" value=\"/motorstormpr/home\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/beaten\" value=\"/motorstormpr/speed-weekend/beaten\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/viewed\" value=\"/motorstormpr/speed-weekend/viewed\"/>\r\n        <BROWSER_INIT name=\"init\"/>\r\n    </URL_List>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/index?languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a4aedb2afbd37ec184b1c267ba65c228",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:17:43 GMT",
+   "X-SVOMac": "1cf16876e7b19eb82a7222e170afc337"
+  },
+  "response_body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<XML>\r\n    <URL_List>\r\n        <DATA dataType=\"URI\" name=\"ticketLogin\" value=\"https:ticket/login\"/>\r\n        <DATA dataType=\"URI\" name=\"finishGameURI\" value=\"/game/finish\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/timeattack\" value=\"/motorstormpr/leaderboard/timeattack\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/speed\" value=\"/motorstormpr/leaderboard/speed\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/ranked\" value=\"/motorstormpr/leaderboard/ranked\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard\" value=\"/motorstormpr/leaderboard\"/>\r\n        <DATA dataType=\"URI\" name=\"getRegion\" value=\"/motorstormpr/getRegion\"/>\r\n        <DATA dataType=\"URI\" name=\"getEula\" value=\"/motorstormpr/getEula\"/>\r\n        <DATA dataType=\"URI\" name=\"acceptEula\" value=\"/motorstormpr/acceptEula\"/>\r\n        <DATA dataType=\"URI\" name=\"getAnnouncement\" value=\"/motorstormpr/getAnnouncement\"/>\r\n        <DATA dataType=\"URI\" name=\"home\" value=\"/motorstormpr/home\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/beaten\" value=\"/motorstormpr/speed-weekend/beaten\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/viewed\" value=\"/motorstormpr/speed-weekend/viewed\"/>\r\n        <BROWSER_INIT name=\"init\"/>\r\n    </URL_List>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/index?languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a4aedb2afbd37ec184b1c267ba65c228",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:17:56 GMT",
+   "X-SVOMac": "1cf16876e7b19eb82a7222e170afc337"
+  },
+  "response_body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<XML>\r\n    <URL_List>\r\n        <DATA dataType=\"URI\" name=\"ticketLogin\" value=\"https:ticket/login\"/>\r\n        <DATA dataType=\"URI\" name=\"finishGameURI\" value=\"/game/finish\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/timeattack\" value=\"/motorstormpr/leaderboard/timeattack\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/speed\" value=\"/motorstormpr/leaderboard/speed\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/ranked\" value=\"/motorstormpr/leaderboard/ranked\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard\" value=\"/motorstormpr/leaderboard\"/>\r\n        <DATA dataType=\"URI\" name=\"getRegion\" value=\"/motorstormpr/getRegion\"/>\r\n        <DATA dataType=\"URI\" name=\"getEula\" value=\"/motorstormpr/getEula\"/>\r\n        <DATA dataType=\"URI\" name=\"acceptEula\" value=\"/motorstormpr/acceptEula\"/>\r\n        <DATA dataType=\"URI\" name=\"getAnnouncement\" value=\"/motorstormpr/getAnnouncement\"/>\r\n        <DATA dataType=\"URI\" name=\"home\" value=\"/motorstormpr/home\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/beaten\" value=\"/motorstormpr/speed-weekend/beaten\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/viewed\" value=\"/motorstormpr/speed-weekend/viewed\"/>\r\n        <BROWSER_INIT name=\"init\"/>\r\n    </URL_List>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/index?languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a4aedb2afbd37ec184b1c267ba65c228",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:30 GMT",
+   "X-SVOMac": "1cf16876e7b19eb82a7222e170afc337"
+  },
+  "response_body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<XML>\r\n    <URL_List>\r\n        <DATA dataType=\"URI\" name=\"ticketLogin\" value=\"https:ticket/login\"/>\r\n        <DATA dataType=\"URI\" name=\"finishGameURI\" value=\"/game/finish\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/timeattack\" value=\"/motorstormpr/leaderboard/timeattack\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/speed\" value=\"/motorstormpr/leaderboard/speed\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/ranked\" value=\"/motorstormpr/leaderboard/ranked\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard\" value=\"/motorstormpr/leaderboard\"/>\r\n        <DATA dataType=\"URI\" name=\"getRegion\" value=\"/motorstormpr/getRegion\"/>\r\n        <DATA dataType=\"URI\" name=\"getEula\" value=\"/motorstormpr/getEula\"/>\r\n        <DATA dataType=\"URI\" name=\"acceptEula\" value=\"/motorstormpr/acceptEula\"/>\r\n        <DATA dataType=\"URI\" name=\"getAnnouncement\" value=\"/motorstormpr/getAnnouncement\"/>\r\n        <DATA dataType=\"URI\" name=\"home\" value=\"/motorstormpr/home\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/beaten\" value=\"/motorstormpr/speed-weekend/beaten\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/viewed\" value=\"/motorstormpr/speed-weekend/viewed\"/>\r\n        <BROWSER_INIT name=\"init\"/>\r\n    </URL_List>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/index?languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a4aedb2afbd37ec184b1c267ba65c228",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:44 GMT",
+   "X-SVOMac": "1cf16876e7b19eb82a7222e170afc337"
+  },
+  "response_body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<XML>\r\n    <URL_List>\r\n        <DATA dataType=\"URI\" name=\"ticketLogin\" value=\"https:ticket/login\"/>\r\n        <DATA dataType=\"URI\" name=\"finishGameURI\" value=\"/game/finish\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/timeattack\" value=\"/motorstormpr/leaderboard/timeattack\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/speed\" value=\"/motorstormpr/leaderboard/speed\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/ranked\" value=\"/motorstormpr/leaderboard/ranked\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard\" value=\"/motorstormpr/leaderboard\"/>\r\n        <DATA dataType=\"URI\" name=\"getRegion\" value=\"/motorstormpr/getRegion\"/>\r\n        <DATA dataType=\"URI\" name=\"getEula\" value=\"/motorstormpr/getEula\"/>\r\n        <DATA dataType=\"URI\" name=\"acceptEula\" value=\"/motorstormpr/acceptEula\"/>\r\n        <DATA dataType=\"URI\" name=\"getAnnouncement\" value=\"/motorstormpr/getAnnouncement\"/>\r\n        <DATA dataType=\"URI\" name=\"home\" value=\"/motorstormpr/home\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/beaten\" value=\"/motorstormpr/speed-weekend/beaten\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/viewed\" value=\"/motorstormpr/speed-weekend/viewed\"/>\r\n        <BROWSER_INIT name=\"init\"/>\r\n    </URL_List>\r\n</XML>\r\n"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/index?languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a4aedb2afbd37ec184b1c267ba65c228",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:52:07 GMT",
+   "X-SVOMac": "1cf16876e7b19eb82a7222e170afc337"
+  },
+  "response_body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<XML>\r\n    <URL_List>\r\n        <DATA dataType=\"URI\" name=\"ticketLogin\" value=\"https:ticket/login\"/>\r\n        <DATA dataType=\"URI\" name=\"finishGameURI\" value=\"/game/finish\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/timeattack\" value=\"/motorstormpr/leaderboard/timeattack\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/speed\" value=\"/motorstormpr/leaderboard/speed\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard/ranked\" value=\"/motorstormpr/leaderboard/ranked\"/>\r\n        <DATA dataType=\"URI\" name=\"leaderboard\" value=\"/motorstormpr/leaderboard\"/>\r\n        <DATA dataType=\"URI\" name=\"getRegion\" value=\"/motorstormpr/getRegion\"/>\r\n        <DATA dataType=\"URI\" name=\"getEula\" value=\"/motorstormpr/getEula\"/>\r\n        <DATA dataType=\"URI\" name=\"acceptEula\" value=\"/motorstormpr/acceptEula\"/>\r\n        <DATA dataType=\"URI\" name=\"getAnnouncement\" value=\"/motorstormpr/getAnnouncement\"/>\r\n        <DATA dataType=\"URI\" name=\"home\" value=\"/motorstormpr/home\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/beaten\" value=\"/motorstormpr/speed-weekend/beaten\"/>\r\n        <DATA dataType=\"URI\" name=\"speed-weekend/viewed\" value=\"/motorstormpr/speed-weekend/viewed\"/>\r\n        <BROWSER_INIT name=\"init\"/>\r\n    </URL_List>\r\n</XML>\r\n"
+ }
+]

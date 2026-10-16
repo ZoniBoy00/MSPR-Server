@@ -1,0 +1,5 @@
+# MSPR server ban list (read on every login and race report, no restart needed).
+# One ban per line:   account <name>   or   ip <address>      an optional "# reason" is shown to the player.
+# Account names are the player's online name (RPCN or PSN). Examples:
+# account SomeCheater        # speed hack in ranked
+# ip 203.0.113.7

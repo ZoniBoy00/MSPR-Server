@@ -1,0 +1,58 @@
+{
+  "lanIp": "auto",
+  "publicIp": null,
+  "svo": {
+    "host": "auto",
+    "port": 10060,
+    "region": {
+      "id": 1,
+      "mediusLocation": "us"
+    },
+    "eulaFile": "eula.txt",
+    "announcementFile": "announcement.txt",
+    "eulaAlwaysShow": true
+  },
+  "dns": {
+    "port": 53,
+    "upstream": "1.1.1.1",
+    "forwardNames": ["np.rpcs3.net", "playstation.net", "playstation.com", "sonyentertainmentnetwork.com"],
+    "localNames": [
+      "motorstorm2ps3.online.scee.com",
+      "svo.psrewired.com",
+      "api.psrewired.com"
+    ],
+    "localSuffixes": [
+      ".psrewired.com",
+      ".pdonline.scea.com"
+    ]
+  },
+  "web": {
+    "port": 8080,
+    "adminToken": null,
+    "privacy": {
+      "anticheat": "admin",
+      "bans": "public",
+      "live": "public",
+      "raceHistory": "public",
+      "pseudonymize": false,
+      "salt": ""
+    }
+  },
+  "horizon": {
+    "crudUrl": "http://127.0.0.1:61920",
+    "appId": 21624
+  },
+  "database": "../data/mspr.sqlite",
+  "leaderboards": {
+    "timeattackModes": null,
+    "speedModes": null
+  },
+  "antiCheat": {
+    "enabled": true,
+    "minLapTime": 2000,
+    "maxRacesPerMinute": 6,
+    "autoBanStrikes": 3,
+    "autoBanHours": 24,
+    "bansFile": "bans.txt"
+  }
+}

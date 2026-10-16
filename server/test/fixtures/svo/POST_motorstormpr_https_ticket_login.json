@@ -1,0 +1,298 @@
+[
+ {
+  "method": "POST",
+  "uri": "/motorstormpr/https:ticket/login?sig=eIFwusZutKy1eFBaII1KHg%3d%3d&userContext=0&sigclass=0&siglength=16&timeZone=1&languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "X-SVOMac": "9ac3b51151a6930826735f20eb05b2b2",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "256",
+   "Cache-Control": "no-cache",
+   "Content-Type": "application/octet-stream"
+  },
+  "request_body": "!\u0001\u0000\u0000\u0000\u0000\u0000\u00f80\u0000\u0000\u00a4\u0000\b\u0000\u001451940\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0001\u0000\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11\u001a\u0082\u00df\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11(>\u007f\u0000\u0002\u0000\b\u0000\u0000\u0000\u0000\u0000\u0003H!\u0000\u0004\u0000 Player1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0004br\u0000\u0000\u0000\u0004\u0000\u0004un\u0000\u0000\u0000\b\u0000\u0018UP9000-BCUS98155_00\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000L\u0000\b\u0000\u0004RPCN\u0000\b\u0000@0>\u0002\u001d\u0000\u00d1)\u0092\u00ee\u00e8t5\u000f9\u00e8\u00e4\u0095\u00fb\u00a4_ \u00f1\u001e\u00bd\u00d3\u00ffM\u00f9F(\u0097\u0099\u001f\u0002\u001d\u0000\u00ea\u00f6\u00c2K\u00c8\u00cd\u008d\u00bd\u0003!\u00be\u00de\u00f9e\u0007\u00fa\u0089\u0094\u00e8\u0098\u00a2\u00ab\u0099\u0099\u0090n\u00f8\u00dd",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:14:05 GMT",
+   "Set-Cookie": "AuthKeyTime=2026-10-12%2017%3A14%3A06; path=/",
+   "X-SVOMac": "a262d38b1f49238e1f07a61ceb6dec1b"
+  },
+  "response_body": "<XML>\n    <SP_Login>\n        <status>\n            <id>20600</id>\n        </status>\n            <accountID>61025</accountID>\n        <userContext>0</userContext>\n    </SP_Login>\n</XML>\n"
+ },
+ {
+  "method": "POST",
+  "uri": "/motorstormpr/https:ticket/login?sig=eIFwusZutKy1eFBaII1KHg%3d%3d&userContext=0&sigclass=0&siglength=16&timeZone=1&languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "1df0cc516db4f6394e4df520e337c14f",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "255",
+   "Cache-Control": "no-cache",
+   "Content-Type": "application/octet-stream"
+  },
+  "request_body": "!\u0001\u0000\u0000\u0000\u0000\u0000\u00f70\u0000\u0000\u00a4\u0000\b\u0000\u001451942\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0001\u0000\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11\u001a\u00b9\u0097\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11(u7\u0000\u0002\u0000\b\u0000\u0000\u0000\u0000\u0000\u0003H!\u0000\u0004\u0000 Player1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0004br\u0000\u0000\u0000\u0004\u0000\u0004un\u0000\u0000\u0000\b\u0000\u0018UP9000-BCUS98155_00\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000K\u0000\b\u0000\u0004RPCN\u0000\b\u0000?0=\u0002\u001cX\\G\u00c3\u0090\u00ce;\u00c2\u0099\u00f2\u00d4\u00f6\u0014X\u0084\u00a5\u0011\u00ff8\fqr\u00c3\f\n\u000f\\\u00ab\u0002\u001d\u0000\u00b1\u001d\u00fcW6vZ\u00ab\n=\u00d8R.Oq\u00cc\u00c1Em\u00c3\u001d\u0085\u00f6\u0005#\u00ecS\u00e8",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:14:19 GMT",
+   "Set-Cookie": "AuthKeyTime=2026-10-12%2017%3A14%3A19; path=/",
+   "X-SVOMac": "d982cc23686bd4432413ce7b11dbb432"
+  },
+  "response_body": "<XML>\n    <SP_Login>\n        <status>\n            <id>20600</id>\n        </status>\n            <accountID>61025</accountID>\n        <userContext>0</userContext>\n    </SP_Login>\n</XML>\n"
+ },
+ {
+  "method": "POST",
+  "uri": "/motorstormpr/https:ticket/login?sig=eIFwusZutKy1eFBaII1KHg%3d%3d&userContext=0&sigclass=0&siglength=16&timeZone=1&languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "1df0cc516db4f6394e4df520e337c14f",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "255",
+   "Cache-Control": "no-cache",
+   "Content-Type": "application/octet-stream"
+  },
+  "request_body": "!\u0001\u0000\u0000\u0000\u0000\u0000\u00f70\u0000\u0000\u00a4\u0000\b\u0000\u001451960\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0001\u0000\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11\u001bu\u001a\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11)0\u00ba\u0000\u0002\u0000\b\u0000\u0000\u0000\u0000\u0000\u0003H!\u0000\u0004\u0000 Player1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0004br\u0000\u0000\u0000\u0004\u0000\u0004un\u0000\u0000\u0000\b\u0000\u0018UP9000-BCUS98155_00\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000K\u0000\b\u0000\u0004RPCN\u0000\b\u0000?0=\u0002\u001cT\u00caw\u0098\u00b6\u00c0\u009f%)\u00ce\u00e3\u00e3\u00d4\u00d9D\u001cz46\u000e\u0092 \u00c9{\u00b6\u008d\u00f9\u0092\u0002\u001d\u0000\u00b2l\u00c4\u0088\u00a5\u00de\u00d9\u0017?7\u001b 3k^+z\u0006\u00dd\f\u00d4\u00e8\\'\\\u008f\u0001\u0002",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:15:07 GMT",
+   "Set-Cookie": "AuthKeyTime=2026-10-12%2017%3A15%3A07; path=/",
+   "X-SVOMac": "d982cc23686bd4432413ce7b11dbb432"
+  },
+  "response_body": "<XML>\n    <SP_Login>\n        <status>\n            <id>20600</id>\n        </status>\n            <accountID>61025</accountID>\n        <userContext>0</userContext>\n    </SP_Login>\n</XML>\n"
+ },
+ {
+  "method": "POST",
+  "uri": "/motorstormpr/https:ticket/login?sig=eIFwusZutKy1eFBaII1KHg%3d%3d&userContext=0&sigclass=0&siglength=16&timeZone=1&languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "1df0cc516db4f6394e4df520e337c14f",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "255",
+   "Cache-Control": "no-cache",
+   "Content-Type": "application/octet-stream"
+  },
+  "request_body": "!\u0001\u0000\u0000\u0000\u0000\u0000\u00f70\u0000\u0000\u00a4\u0000\b\u0000\u001451969\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0001\u0000\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11\u001c#\u009b\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11)\u00df;\u0000\u0002\u0000\b\u0000\u0000\u0000\u0000\u0000\u0003H!\u0000\u0004\u0000 Player1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0004br\u0000\u0000\u0000\u0004\u0000\u0004un\u0000\u0000\u0000\b\u0000\u0018UP9000-BCUS98155_00\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000K\u0000\b\u0000\u0004RPCN\u0000\b\u0000?0=\u0002\u001d\u0000\u00a5\u0095\u00f2\u0080eH\u00d1\\\u00a7\u000e\u00bb\u00b1\u0018d5\u001a(\u0097%\u0016 >\u00b9b\u0013K\n\u008b\u0002\u001c&\u00c3\u00fc\u00f2X\u00d5\u00ec\u009a\u00bf\u00c3F\u00c5\u001c\u00b4Sf\u00aa\u00c0\u0098\u0003\u0019c\u0016]\u0002\u00c8\u008a\u00c7",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:15:51 GMT",
+   "Set-Cookie": "AuthKeyTime=2026-10-12%2017%3A15%3A52; path=/",
+   "X-SVOMac": "d982cc23686bd4432413ce7b11dbb432"
+  },
+  "response_body": "<XML>\n    <SP_Login>\n        <status>\n            <id>20600</id>\n        </status>\n            <accountID>61025</accountID>\n        <userContext>0</userContext>\n    </SP_Login>\n</XML>\n"
+ },
+ {
+  "method": "POST",
+  "uri": "/motorstormpr/https:ticket/login?sig=eIFwusZutKy1eFBaII1KHg%3d%3d&userContext=0&sigclass=0&siglength=16&timeZone=1&languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "1df0cc516db4f6394e4df520e337c14f",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "256",
+   "Cache-Control": "no-cache",
+   "Content-Type": "application/octet-stream"
+  },
+  "request_body": "!\u0001\u0000\u0000\u0000\u0000\u0000\u00f80\u0000\u0000\u00a4\u0000\b\u0000\u001451978\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0001\u0000\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11\u001c\u00dd\u00fa\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11*\u0099\u009a\u0000\u0002\u0000\b\u0000\u0000\u0000\u0000\u0000\u0003H!\u0000\u0004\u0000 Player1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0004br\u0000\u0000\u0000\u0004\u0000\u0004un\u0000\u0000\u0000\b\u0000\u0018UP9000-BCUS98155_00\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000L\u0000\b\u0000\u0004RPCN\u0000\b\u0000@0>\u0002\u001d\u0000\u00b7\u0019\u008cp\u00bfV:\u0013 \u0088\u00afM=\u00d9\u00c93\u00b9p\u0014\u009f\u000f\u00d7\u0098\u00968\u0018C\\\u0002\u001d\u0000\u0085\u00a0\u0088K\u00aa\r\u0094A^S}h\u00d4\u008b\u00d8\u0013_[A\u008c2'\u00f1\u0082\u008b\u001c%\u0092",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:16:39 GMT",
+   "Set-Cookie": "AuthKeyTime=2026-10-12%2017%3A16%3A40; path=/",
+   "X-SVOMac": "d982cc23686bd4432413ce7b11dbb432"
+  },
+  "response_body": "<XML>\n    <SP_Login>\n        <status>\n            <id>20600</id>\n        </status>\n            <accountID>61025</accountID>\n        <userContext>0</userContext>\n    </SP_Login>\n</XML>\n"
+ },
+ {
+  "method": "POST",
+  "uri": "/motorstormpr/https:ticket/login?sig=eIFwusZutKy1eFBaII1KHg%3d%3d&userContext=0&sigclass=0&siglength=16&timeZone=1&languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "1df0cc516db4f6394e4df520e337c14f",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "256",
+   "Cache-Control": "no-cache",
+   "Content-Type": "application/octet-stream"
+  },
+  "request_body": "!\u0001\u0000\u0000\u0000\u0000\u0000\u00f80\u0000\u0000\u00a4\u0000\b\u0000\u001451983\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0001\u0000\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11\u001d|\u00ba\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11+8Z\u0000\u0002\u0000\b\u0000\u0000\u0000\u0000\u0000\u0003H!\u0000\u0004\u0000 Player1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0004br\u0000\u0000\u0000\u0004\u0000\u0004un\u0000\u0000\u0000\b\u0000\u0018UP9000-BCUS98155_00\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000L\u0000\b\u0000\u0004RPCN\u0000\b\u0000@0>\u0002\u001d\u0000\u00b9\u0015\u00c5+\u00da}g:M\u00f9\u00ba\u00b1n\u000b\u0011\u00b5\u00a8#E\u0012X\u00a7\u00a3\u00af'\u0098\u0092\u0089\u0002\u001d\u0000\u00f6\u0080f\u00ac\u0084\u00abk\u0087\u00a1\u0082\u00ae`]\u00e1\u0081\u0086\u001bk\u00c1\u0017\u00d2\u00b4\u0003-=\u0086er",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:17:20 GMT",
+   "Set-Cookie": "AuthKeyTime=2026-10-12%2017%3A17%3A20; path=/",
+   "X-SVOMac": "d982cc23686bd4432413ce7b11dbb432"
+  },
+  "response_body": "<XML>\n    <SP_Login>\n        <status>\n            <id>20600</id>\n        </status>\n            <accountID>61025</accountID>\n        <userContext>0</userContext>\n    </SP_Login>\n</XML>\n"
+ },
+ {
+  "method": "POST",
+  "uri": "/motorstormpr/https:ticket/login?sig=eIFwusZutKy1eFBaII1KHg%3d%3d&userContext=0&sigclass=0&siglength=16&timeZone=1&languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "1df0cc516db4f6394e4df520e337c14f",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "254",
+   "Cache-Control": "no-cache",
+   "Content-Type": "application/octet-stream"
+  },
+  "request_body": "!\u0001\u0000\u0000\u0000\u0000\u0000\u00f60\u0000\u0000\u00a4\u0000\b\u0000\u001451989\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0001\u0000\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11\u001d\u00de8\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11+\u0099\u00d8\u0000\u0002\u0000\b\u0000\u0000\u0000\u0000\u0000\u0003H!\u0000\u0004\u0000 Player1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0004br\u0000\u0000\u0000\u0004\u0000\u0004un\u0000\u0000\u0000\b\u0000\u0018UP9000-BCUS98155_00\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000J\u0000\b\u0000\u0004RPCN\u0000\b\u0000>0<\u0002\u001cy\u0086\u008bhFM\u00a6\u00c4\u00000\u00eak\u00b7\u00daN1L\u0016\u00e6\u00ec1\u00f9\u009c-i\u00c6\u00f3\u00a3\u0002\u001c\u0012!8Q\u00d1Z\u00fbb\u00f2\u0098Ei%\u00a6\u00a2\u0013\u00de\u00e6\u00da\u0013\u0017\u00c13X\u008b\u00da\u00987",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:17:45 GMT",
+   "Set-Cookie": "AuthKeyTime=2026-10-12%2017%3A17%3A45; path=/",
+   "X-SVOMac": "d982cc23686bd4432413ce7b11dbb432"
+  },
+  "response_body": "<XML>\n    <SP_Login>\n        <status>\n            <id>20600</id>\n        </status>\n            <accountID>61025</accountID>\n        <userContext>0</userContext>\n    </SP_Login>\n</XML>\n"
+ },
+ {
+  "method": "POST",
+  "uri": "/motorstormpr/https:ticket/login?sig=eIFwusZutKy1eFBaII1KHg%3d%3d&userContext=0&sigclass=0&siglength=16&timeZone=1&languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "1df0cc516db4f6394e4df520e337c14f",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "255",
+   "Cache-Control": "no-cache",
+   "Content-Type": "application/octet-stream"
+  },
+  "request_body": "!\u0001\u0000\u0000\u0000\u0000\u0000\u00f70\u0000\u0000\u00a4\u0000\b\u0000\u001451991\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0001\u0000\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11\u001e\u0011\u009c\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11+\u00cd<\u0000\u0002\u0000\b\u0000\u0000\u0000\u0000\u0000\u0003H!\u0000\u0004\u0000 Player1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0004br\u0000\u0000\u0000\u0004\u0000\u0004un\u0000\u0000\u0000\b\u0000\u0018UP9000-BCUS98155_00\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000K\u0000\b\u0000\u0004RPCN\u0000\b\u0000?0=\u0002\u001c^\u00a1\u00f5sQ\u00cdn\u00a9Yu8\u00ca\u00e5\u0013\u0011\u00b09`M{D\u00f5v\u00a9\u00cfPg\u00ad\u0002\u001d\u0000\u00e8IyI\u00e6\u00c6\u0085\u00f6o\u00cf\u00d0T\u0089\u001f\u00c2\u00e6\u00d6nr\u001f\u0010\u00e1G\u00bf#\u00c2\u0091\u00c2",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:17:58 GMT",
+   "Set-Cookie": "AuthKeyTime=2026-10-12%2017%3A17%3A59; path=/",
+   "X-SVOMac": "d982cc23686bd4432413ce7b11dbb432"
+  },
+  "response_body": "<XML>\n    <SP_Login>\n        <status>\n            <id>20600</id>\n        </status>\n            <accountID>61025</accountID>\n        <userContext>0</userContext>\n    </SP_Login>\n</XML>\n"
+ },
+ {
+  "method": "POST",
+  "uri": "/motorstormpr/https:ticket/login?sig=eIFwusZutKy1eFBaII1KHg%3d%3d&userContext=0&sigclass=0&siglength=16&timeZone=1&languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "1df0cc516db4f6394e4df520e337c14f",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "255",
+   "Cache-Control": "no-cache",
+   "Content-Type": "application/octet-stream"
+  },
+  "request_body": "!\u0001\u0000\u0000\u0000\u0000\u0000\u00f70\u0000\u0000\u00a4\u0000\b\u0000\u001452507\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0001\u0000\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11<\u00ccd\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11J\u0088\u0004\u0000\u0002\u0000\b\u0000\u0000\u0000\u0000\u0000\u0003H!\u0000\u0004\u0000 Player1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0004br\u0000\u0000\u0000\u0004\u0000\u0004un\u0000\u0000\u0000\b\u0000\u0018UP9000-BCUS98155_00\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000K\u0000\b\u0000\u0004RPCN\u0000\b\u0000?0=\u0002\u001d\u0000\u00dc*N\u00ec\u00bb\u00b9\u00ed5\u0087h\u00ce\u0093Kd\t\u0005\u00e7\u00c4Vd\u00e08T50\u00bb\u00ba\u0089\u0002\u001c\u0000\u00cb\u0018$[\u0010\u00e6\u00c9\u0081\u008d\u001d\u00b3\u0004\u000f\u0018\u0011<=l\u00a2_|\u0087t\u00dc6]\u001a",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:32 GMT",
+   "Set-Cookie": "AuthKeyTime=2026-10-12%2017%3A51%3A33; path=/",
+   "X-SVOMac": "d982cc23686bd4432413ce7b11dbb432"
+  },
+  "response_body": "<XML>\n    <SP_Login>\n        <status>\n            <id>20600</id>\n        </status>\n            <accountID>61025</accountID>\n        <userContext>0</userContext>\n    </SP_Login>\n</XML>\n"
+ },
+ {
+  "method": "POST",
+  "uri": "/motorstormpr/https:ticket/login?sig=eIFwusZutKy1eFBaII1KHg%3d%3d&userContext=0&sigclass=0&siglength=16&timeZone=1&languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "1df0cc516db4f6394e4df520e337c14f",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "254",
+   "Cache-Control": "no-cache",
+   "Content-Type": "application/octet-stream"
+  },
+  "request_body": "!\u0001\u0000\u0000\u0000\u0000\u0000\u00f60\u0000\u0000\u00a4\u0000\b\u0000\u001452509\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0001\u0000\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11=\u0006\u00a5\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11J\u00c2E\u0000\u0002\u0000\b\u0000\u0000\u0000\u0000\u0000\u0003H!\u0000\u0004\u0000 Player1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0004br\u0000\u0000\u0000\u0004\u0000\u0004un\u0000\u0000\u0000\b\u0000\u0018UP9000-BCUS98155_00\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000J\u0000\b\u0000\u0004RPCN\u0000\b\u0000>0<\u0002\u001c.\u00c8\u00a1\u0007\u0015\u00e3\n\u00e6\u0012\u00de%\u00c1\u00e2Z\u00b48V\u00ff\u0098\u00e3`7s\u00f6\u00c7<\u00bd`\u0002\u001cJPCt+\u00f6f\u00ebA\u0081\u00d1\u00d0'\u00a5\u0012\u00eb\u0090\u00b4\u00067w\u00c7\u00f6\u00a0}\u008a\u00fa\u00a0",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:47 GMT",
+   "Set-Cookie": "AuthKeyTime=2026-10-12%2017%3A51%3A48; path=/",
+   "X-SVOMac": "d982cc23686bd4432413ce7b11dbb432"
+  },
+  "response_body": "<XML>\n    <SP_Login>\n        <status>\n            <id>20600</id>\n        </status>\n            <accountID>61025</accountID>\n        <userContext>0</userContext>\n    </SP_Login>\n</XML>\n"
+ },
+ {
+  "method": "POST",
+  "uri": "/motorstormpr/https:ticket/login?sig=eIFwusZutKy1eFBaII1KHg%3d%3d&userContext=0&sigclass=0&siglength=16&timeZone=1&languageID=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "1df0cc516db4f6394e4df520e337c14f",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "254",
+   "Cache-Control": "no-cache",
+   "Content-Type": "application/octet-stream"
+  },
+  "request_body": "!\u0001\u0000\u0000\u0000\u0000\u0000\u00f60\u0000\u0000\u00a4\u0000\b\u0000\u001452514\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0001\u0000\u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11=] \u0000\u0007\u0000\b\u0000\u0000\u0001\u00a11K\u0018\u00c0\u0000\u0002\u0000\b\u0000\u0000\u0000\u0000\u0000\u0003H!\u0000\u0004\u0000 Player1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0004br\u0000\u0000\u0000\u0004\u0000\u0004un\u0000\u0000\u0000\b\u0000\u0018UP9000-BCUS98155_00\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0002\u0000J\u0000\b\u0000\u0004RPCN\u0000\b\u0000>0<\u0002\u001c\"\u00be\u00ea\u0007\u0098\u008a\u00d5?\u00d8\u001e8\u00e1o\u00a8\u00be\u00a3\rH7k\u0092\u00a5-\u00f7\u001amLe\u0002\u001c\"\u0096T\u00cb\u0093\u00a8g&\\\u008e\u0086\u00ac\u0010\b\u00ef\u00d9\u00d0\u0089Q\u00fa3\u00c9\u00c7J,y\u008d1",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:52:09 GMT",
+   "Set-Cookie": "AuthKeyTime=2026-10-12%2017%3A52%3A10; path=/",
+   "X-SVOMac": "d982cc23686bd4432413ce7b11dbb432"
+  },
+  "response_body": "<XML>\n    <SP_Login>\n        <status>\n            <id>20600</id>\n        </status>\n            <accountID>61025</accountID>\n        <userContext>0</userContext>\n    </SP_Login>\n</XML>\n"
+ }
+]

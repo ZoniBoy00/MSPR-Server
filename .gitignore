@@ -1,0 +1,34 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+npm-install.log
+# runtime data (databases, logs)
+server/data/
+dist/
+logs/
+**/net6.0/logs/
+**/static/mspr_accounts.json*
+# large research binaries
+_archive/
+
+# GitHub build and runtime artifacts
+**/bin/
+**/obj/
+**/dist/
+**/coverage/
+**/logs/
+**/data/
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+*.pcapng
+*.elf
+*.ELF
+*.iso
+*.BIN
+*.bin
+*.zip
+.DS_Store
+Thumbs.db

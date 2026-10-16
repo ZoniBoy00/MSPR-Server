@@ -1,0 +1,52 @@
+[
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/speed-weekend/beaten?",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "6c2aeff8411496e378a0d0ad0c8e7456",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:18:02 GMT",
+   "X-SVOMac": "caaa058c846d246bdc13e1dfa2827514"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/speed-weekend/beaten?",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "6c2aeff8411496e378a0d0ad0c8e7456",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:50 GMT",
+   "X-SVOMac": "caaa058c846d246bdc13e1dfa2827514"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ }
+]

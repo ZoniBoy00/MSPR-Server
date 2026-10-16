@@ -1,0 +1,252 @@
+[
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/acceptEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "e649e15f6b4f943968225e16d17c0b4c",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:14:24 GMT",
+   "X-SVOMac": "5ea5c2cca7d2b3099c2c000566f3b946"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/acceptEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "e649e15f6b4f943968225e16d17c0b4c",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:15:13 GMT",
+   "X-SVOMac": "5ea5c2cca7d2b3099c2c000566f3b946"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/acceptEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "e649e15f6b4f943968225e16d17c0b4c",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:15:57 GMT",
+   "X-SVOMac": "5ea5c2cca7d2b3099c2c000566f3b946"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/acceptEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "e649e15f6b4f943968225e16d17c0b4c",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:16:53 GMT",
+   "X-SVOMac": "5ea5c2cca7d2b3099c2c000566f3b946"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/acceptEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "e649e15f6b4f943968225e16d17c0b4c",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:17:24 GMT",
+   "X-SVOMac": "5ea5c2cca7d2b3099c2c000566f3b946"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/acceptEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "e649e15f6b4f943968225e16d17c0b4c",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:17:49 GMT",
+   "X-SVOMac": "5ea5c2cca7d2b3099c2c000566f3b946"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/acceptEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "e649e15f6b4f943968225e16d17c0b4c",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:18:03 GMT",
+   "X-SVOMac": "5ea5c2cca7d2b3099c2c000566f3b946"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/acceptEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "e649e15f6b4f943968225e16d17c0b4c",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:36 GMT",
+   "X-SVOMac": "5ea5c2cca7d2b3099c2c000566f3b946"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/acceptEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "e649e15f6b4f943968225e16d17c0b4c",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:52 GMT",
+   "X-SVOMac": "5ea5c2cca7d2b3099c2c000566f3b946"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/acceptEula?country=fi&languageCode=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "e649e15f6b4f943968225e16d17c0b4c",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:52:14 GMT",
+   "X-SVOMac": "5ea5c2cca7d2b3099c2c000566f3b946"
+  },
+  "response_body": "<XML>\r\n    <status>\r\n        <id>20407</id>\r\n    </status>\r\n</XML>"
+ }
+]

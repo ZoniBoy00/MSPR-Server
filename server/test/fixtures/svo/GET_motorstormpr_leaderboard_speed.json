@@ -1,0 +1,302 @@
+[
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/speed?location.region=0&row=0&pageSize=10&location.track=14&location.vehicle=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "e603f658707810743348772fa53f984f",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:18:04 GMT",
+   "X-SVOMac": "9c69c872d7f1ddd0814aa13b75e1f4ca"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/speed?location.region=0&row=0&pageSize=10&friends=true&location.track=14&location.vehicle=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "f463a0cd8c1a990958f3337ca4437590",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:18:05 GMT",
+   "X-SVOMac": "32adea160b0275ba1a2d0c5015cb448c"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/speed?location.region=0&row=0&pageSize=10&location.track=18&location.vehicle=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "cc3083412fb3270223c99cb17810dbc3",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:18:10 GMT",
+   "X-SVOMac": "8d7b23780ddf7595e3920d17a0401971"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/speed?location.region=0&row=0&pageSize=10&friends=true&location.track=18&location.vehicle=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "1c31ee1287923168bed02b53c54717df",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:18:11 GMT",
+   "X-SVOMac": "e8f4a5a51953f57fa9f8440ef8162316"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/speed?location.region=0&row=0&pageSize=10&location.track=14&location.vehicle=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "e603f658707810743348772fa53f984f",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:55 GMT",
+   "X-SVOMac": "9c69c872d7f1ddd0814aa13b75e1f4ca"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/speed?location.region=0&row=0&pageSize=10&friends=true&location.track=14&location.vehicle=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "f463a0cd8c1a990958f3337ca4437590",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:55 GMT",
+   "X-SVOMac": "32adea160b0275ba1a2d0c5015cb448c"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/speed?location.region=0&row=0&pageSize=10&location.track=11&location.vehicle=2",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "9dde6466623ee2006ce272dffc725c2a",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:57 GMT",
+   "X-SVOMac": "e20fadb63892c1720efe6d13d88eed13"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/speed?location.region=0&row=0&pageSize=10&friends=true&location.track=11&location.vehicle=2",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "a52fd349e21a1700a28b561265dfbb07",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:57 GMT",
+   "X-SVOMac": "a99e8ad7cf5baea7ae5e01cf173c0bf8"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/speed?location.region=0&row=0&pageSize=10&location.track=1&location.vehicle=3",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "39eb92c84f0c75b7d91135346082bfc1",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:59 GMT",
+   "X-SVOMac": "11753f31921572325d78086f26d6c729"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/speed?location.region=0&row=0&pageSize=10&friends=true&location.track=1&location.vehicle=3",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "fabbe61a8eea95679b05ceccc82c900e",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:59 GMT",
+   "X-SVOMac": "3ced18530d09cd87a6806c9390218ce4"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/speed?location.region=0&row=0&pageSize=10&location.track=12&location.vehicle=4",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "2affbdb6844536be57d55fb845a2b3e8",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:52:01 GMT",
+   "X-SVOMac": "f105b5d1d39a61f65737dcb378614106"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/speed?location.region=0&row=0&pageSize=10&friends=true&location.track=12&location.vehicle=4",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "d68cb24cb3c6e9de44ad9de39c9f0570",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:52:01 GMT",
+   "X-SVOMac": "ffe4862561ebc10754e5ec8f52736eb1"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ }
+]

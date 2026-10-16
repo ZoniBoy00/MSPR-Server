@@ -1,0 +1,52 @@
+[
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/timeattack?location.region=0&row=0&pageSize=10&location.track=1&location.vehicle=0",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "d594e3ace1afec7f96c5b5b9f89ecab7",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:17:25 GMT",
+   "X-SVOMac": "a13d6a81e6af662c8d1132eb4ab98173"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n                <user accountName=\"RemotePlayerD\" accountId=\"91223\" bestTime=\"16119\" rank=\"1\" vehicle=\"5\" currentPlayer=\"0\" ghostAvailable=\"0\" estimated=\"0\"/>\r\n                <user accountName=\"RemotePlayerC\" accountId=\"84908\" bestTime=\"16520\" rank=\"2\" vehicle=\"4\" currentPlayer=\"0\" ghostAvailable=\"0\" estimated=\"0\"/>\r\n                <user accountName=\"RemotePlayerA\" accountId=\"89379\" bestTime=\"19842\" rank=\"3\" vehicle=\"2\" currentPlayer=\"0\" ghostAvailable=\"0\" estimated=\"0\"/>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ },
+ {
+  "method": "GET",
+  "uri": "/motorstormpr/leaderboard/timeattack?location.region=0&row=0&pageSize=10&location.track=14&location.vehicle=1",
+  "request_headers": {
+   "Host": "svo.original-service.invalid",
+   "Connection": "close",
+   "Cookie": "AcctName=Player1; X-SVOTitleID=21624; AcctID=61025",
+   "X-SVOMac": "fce02a01d63b103d304ff44c6b62baba",
+   "SVO-Platform": "PS3",
+   "SVO-ScreenWidth": "0.00",
+   "SVO-ScreenHeight": "0.00",
+   "Accept-Language": "en-US",
+   "Content-Length": "0",
+   "Cache-Control": "no-cache"
+  },
+  "request_body": "",
+  "status_line": "HTTP/1.1 200 OK",
+  "response_headers": {
+   "Connection": "close",
+   "Content-Type": "text/xml;charset=UTF-8",
+   "Date": "Mon, 12 Oct 2026 17:51:37 GMT",
+   "X-SVOMac": "a71e61d4d39151512c18fd329324c71b"
+  },
+  "response_body": "<XML>\r\n    <leaderboard>\r\n        <stats>\r\n            <userStats>\r\n                <user accountName=\"RemotePlayerB\" accountId=\"89085\" bestTime=\"13574\" rank=\"1\" vehicle=\"1\" currentPlayer=\"0\" ghostAvailable=\"0\" estimated=\"0\"/>\r\n                <user accountName=\"RemotePlayerC\" accountId=\"84908\" bestTime=\"14005\" rank=\"2\" vehicle=\"1\" currentPlayer=\"0\" ghostAvailable=\"0\" estimated=\"0\"/>\r\n                <user accountName=\"RemotePlayerA\" accountId=\"89379\" bestTime=\"20445\" rank=\"3\" vehicle=\"1\" currentPlayer=\"0\" ghostAvailable=\"0\" estimated=\"0\"/>\r\n            </userStats>\r\n        </stats>\r\n    </leaderboard>\r\n</XML>"
+ }
+]
