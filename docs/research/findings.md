@@ -102,16 +102,3 @@ Read while looking for why a real PS3 posts its Ranked results only at the next 
 - **What this means.** If the answer of the +0x224 question is false after a race (for example because the game thinks it is not signed in or has no valid SVO session), the stats stay pending and are posted later, which fits what a real PS3 does (`result.queued`). The question is the thing to identify next: the owning class and the body of slot +0x224. On RPCS3 it evidently answers true.
 - **Server side, meanwhile.** Every `finishGame` now writes a `result.received` event with the cookie names, how the player was recognised (session cookie, last login of the address, nobody) and the time since the login. A PS3 race with that event in the journal shows whether the request arrives at all.
 
-## 8. Other projects that revive this game **[research]**
-
-No public project documents this game's SVO or Medius protocol in detail; what is known here is ahead of what could be found.
-
-| Project | What it offers |
-|---|---|
-| The original service (psrewired.com, title 21624) | Real PS3 works with DNS only (67.222.156.250 plus 8.8.8.8, UPnP on); custom match worked in 2022, Ranked/Casual not confirmed. Closed source as far as could be verified. RPCS3 host `motorstorm2ps3.online.scee.com`. |
-| PSONE | DNS 185.194.142.4, real PS3 and PSN account, no jailbreak; MotorStorm among the games; closed. |
-| PSORG (`PSOnlineReturnalGaming`) and `GitHubProUser67/PSHome-MultiServer` | MitmDNS, ApacheNet, Horizon (Jump-Suit fork), SVO; lists MotorStorm PR as RPCS3 cross-play only; the RPCS3 wiki says its SVO does not work for this game. `packet-captures` (PS3 folder) and `uya-medius-encryption` are Medius helpers. |
-| `xtvaser/clank` (deprecated), `LittleBigRefresh/NPTicket` | A Medius 1.5-1.8 emulator; a C# NP ticket reader and verifier. |
-| `RipleyTom/rpcn` | RPCN, the RPCS3 NP server; its FAQ says it does not work for real consoles. |
-
-RPCS3 issue 13126 (fixed October 2025): Ranked/Custom races with ten or more players failed to start for RPCS3 players on the original service; the "error communicating with the server" dialog appeared on real PS3s too.
