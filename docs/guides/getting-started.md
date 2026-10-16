@@ -87,7 +87,7 @@ The files are in `server\config\`. Text changes show immediately; `mspr.json` ch
 Every address handed to the game is the public one: the MUIS universe, the SVO address, the lobby address
 at login, the Ranked/Casual referral to MMS, the way back to the lobby and the race server (DME) address.
 The original service's Ranked/Casual worked for its developer but not for other players because its MMS referral
-pointed at a LAN address (192.168.2.103). This server always uses the advertised address.
+pointed at a LAN address (192.0.2.11). This server always uses the advertised address.
 
 ## 7. Data and backups
 

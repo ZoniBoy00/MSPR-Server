@@ -8,7 +8,7 @@ captures and `tools/` analysis. Decompiled output: `re/v103/decomp/*.c`.
 
 In a capture of a Ranked session the game opens Ranked, the MLS
 answers MatchParty with a **Referral** to the matchmaking server (MMS)
-**192.168.2.103:10079**. That's a private LAN address, so the SYNs never get an
+**192.0.2.11:10079**. That's a private LAN address, so the SYNs never get an
 answer (3 attempts at t=103/152/196 s). The original service's MMS isn't reachable from the
 internet.
 
