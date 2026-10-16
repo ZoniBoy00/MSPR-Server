@@ -2,7 +2,7 @@
 
 Notes on `PS3_GAME/USRDIR/ms2.psarc`, the 4.8 GB archive on the game disc. It holds everything the game loads besides the EBOOT, including the online rules. Evidence tag **[DISC]**: read from the files themselves.
 
-The archive is a PSARC (version 1.3, zlib, 64 kB blocks, 5004 files). The extractor `tools/psarc.py` (a script that is not part of this repository) lists and extracts files (`list`, `get`, `extract`, `sizes`). Extracted game files are not stored in either repository.
+The archive is a PSARC (version 1.3, zlib, 64 kB blocks, 5004 files). The extractor `tools/game-data/psarc.py` of the [MSPR-RE](https://github.com/ZoniBoy00/MSPR-RE) repository lists and extracts files (`list`, `get`, `extract`, `sizes`). Extracted game files are not stored in either repository.
 
 ## What is inside
 
@@ -40,7 +40,7 @@ The archive is a PSARC (version 1.3, zlib, 64 kB blocks, 5004 files). The extrac
 
 The use is limited: the Medius address still comes from DNS (`motorstorm2ps3.online.scee.com`), and this server's universe information already sends the SVO address. The override helps when the SVO host name cannot be resolved (the SVO resolver wedge) or to point one client at another SVO server without touching DNS.
 
-How to try it (on a copy of the game's archive, with small Python scripts that are not part of this repository): `python tools/svo_url_override.py ms2.psarc http://<server-ip>:10060/motorstormpr/index --undo undo.json` changes only the 379-byte block of the config file in place; `python tools/psarc_patch.py ms2.psarc restore undo.json` puts the original bytes back (verified byte for byte on a copy of the real archive). Then start the game and watch the SVO log: the requests should arrive when the DNS name of the SVO host does not point to the server.
+How to try it (on a copy of the game's archive, the tools are in the [MSPR-RE](https://github.com/ZoniBoy00/MSPR-RE) repository): `python tools/game-data/svo_url_override.py ms2.psarc http://<server-ip>:10060/motorstormpr/index --undo undo.json` changes only the 379-byte block of the config file in place; `python tools/game-data/psarc_patch.py ms2.psarc restore undo.json` puts the original bytes back (verified byte for byte on a copy of the real archive). Then start the game and watch the SVO log: the requests should arrive when the DNS name of the SVO host does not point to the server.
 - `Configs/Includes/*GameOptions.cfg` has an `OnlineOptions` block with the online boost rubber band (`onlineBoostCatchupMinThreshold` 10, `...MaxThreshold` 35, `onlineBoostSlowdown...`). These are game rules, not server settings.
 - `scripts/game_config.xml` has the `Lib Online` option.
 

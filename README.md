@@ -55,6 +55,14 @@ The full guide, including playing over the internet, settings and anti-cheat, is
 - [Architecture](docs/reference/architecture.md) · [Ranked and Casual matchmaking](docs/reference/ranked-casual.md) · [Project status](docs/project/status.md) · [Security](docs/reference/security.md) · [Credits and sources](docs/project/credits.md)
 - [Reverse engineering report](docs/research/reverse-engineering.md) · [All documents](docs/README.md)
 
+## Related repository
+
+[**MSPR-RE**](https://github.com/ZoniBoy00/MSPR-RE) holds the reverse engineering behind this server: the protocol reports, the redacted captures and the analysis tools. MSPR-Server is what was built from those findings.
+
+## Built with AI assistance
+
+Large parts of the code, the reverse engineering analysis and the documentation of this project (and of MSPR-RE) were written with [Claude](https://claude.com/claude-code) (Anthropic), working under the direction of the maintainer. The maintainer ran the game tests (RPCS3, and first tests on a real PS3) and decided what to build; the automated tests in `server/test` guard the behaviour. Mistakes can still be present, so please open an issue if you find one.
+
 ## Licence and third-party code
 
 This repository is licensed under the **GNU General Public License v3.0** (see [LICENSE](LICENSE)).

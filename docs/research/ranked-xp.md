@@ -38,7 +38,7 @@ The structure the code reads: a list of levels (XP threshold as integer plus the
 
 ## The table: `data/onlinerankings/rankings.xml` **[DISC]**
 
-The file is inside the game's archive `USRDIR/ms2.psarc` (PSARC, zlib; the extractor is `tools/psarc.py` (a script that is not part of this repository)). It is not part of the EBOOT and not in any capture. Reading it confirmed the formula above: the live races (1 -> 51 -> 101 -> 147 XP) are exactly +50 for a win against an equal level and +46 for a win against a level below.
+The file is inside the game's archive `USRDIR/ms2.psarc` (PSARC, zlib; the extractor is `tools/game-data/psarc.py` in the [MSPR-RE](https://github.com/ZoniBoy00/MSPR-RE) repository). It is not part of the EBOOT and not in any capture. Reading it confirmed the formula above: the live races (1 -> 51 -> 101 -> 147 XP) are exactly +50 for a win against an equal level and +46 for a win against a level below.
 
 - **Bounds:** 50 levels in 5 ranks, minimum XP 1, maximum XP 80000, relative level clamped to -50..50, at most 10 quits counted.
 - **Levels (XP needed):** 1: 1, 2: 100, 3: 200, 4: 300, 5: 400, 6: 500, 7: 1000, 8: 1500, 9: 2000, 10: 2500, 11: 3000, then +500 per level to 16: 5500, 17: 6000, 18: 7000, 19: 8000, 20: 9000, 21: 10000, then +1500 to 24: 14500 and so on in steps of 1500 to 30: 23500, 31: 25500, +2000 to 40: 43500, 41: 46500, +3000 to 49: 70500, 50: 75000.
